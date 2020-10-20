@@ -1,0 +1,1148 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "width": 800,
+  "height": 400,
+  "title": {
+    "text": "Total Coronavirus tweets and sampled tweets",
+    "frame": "group"
+  },
+  "style": "cell",
+  "data": [
+    {"name": "selector065_store"},
+    {
+      "name": "data-fd2ffe389be9256433960a856bcb7b03",
+      "values": [
+        {
+          "date": "2020-04-07T00:00:00",
+          "variable": "Tweets total",
+          "value": 7877347
+        },
+        {
+          "date": "2020-04-06T00:00:00",
+          "variable": "Tweets total",
+          "value": 8153967
+        },
+        {
+          "date": "2020-04-05T00:00:00",
+          "variable": "Tweets total",
+          "value": 7421878
+        },
+        {
+          "date": "2020-04-04T00:00:00",
+          "variable": "Tweets total",
+          "value": 7928226
+        },
+        {
+          "date": "2020-04-03T00:00:00",
+          "variable": "Tweets total",
+          "value": 9357114
+        },
+        {
+          "date": "2020-04-02T00:00:00",
+          "variable": "Tweets total",
+          "value": 9767919
+        },
+        {
+          "date": "2020-04-01T00:00:00",
+          "variable": "Tweets total",
+          "value": 10402982
+        },
+        {
+          "date": "2020-03-31T00:00:00",
+          "variable": "Tweets total",
+          "value": 10442433
+        },
+        {
+          "date": "2020-03-30T00:00:00",
+          "variable": "Tweets total",
+          "value": 10125715
+        },
+        {
+          "date": "2020-03-29T00:00:00",
+          "variable": "Tweets total",
+          "value": 9333427
+        },
+        {
+          "date": "2020-03-28T00:00:00",
+          "variable": "Tweets total",
+          "value": 10434672
+        },
+        {
+          "date": "2020-03-27T00:00:00",
+          "variable": "Tweets total",
+          "value": 12209012
+        },
+        {
+          "date": "2020-03-26T00:00:00",
+          "variable": "Tweets total",
+          "value": 12236720
+        },
+        {
+          "date": "2020-03-25T00:00:00",
+          "variable": "Tweets total",
+          "value": 13000270
+        },
+        {
+          "date": "2020-03-24T00:00:00",
+          "variable": "Tweets total",
+          "value": 14445842
+        },
+        {
+          "date": "2020-03-23T00:00:00",
+          "variable": "Tweets total",
+          "value": 15446247
+        },
+        {
+          "date": "2020-03-22T00:00:00",
+          "variable": "Tweets total",
+          "value": 14392562
+        },
+        {
+          "date": "2020-03-21T00:00:00",
+          "variable": "Tweets total",
+          "value": 12861352
+        },
+        {
+          "date": "2020-03-20T00:00:00",
+          "variable": "Tweets total",
+          "value": 15200260
+        },
+        {
+          "date": "2020-03-19T00:00:00",
+          "variable": "Tweets total",
+          "value": 16582132
+        },
+        {
+          "date": "2020-03-18T00:00:00",
+          "variable": "Tweets total",
+          "value": 16561525
+        },
+        {
+          "date": "2020-03-17T00:00:00",
+          "variable": "Tweets total",
+          "value": 17417143
+        },
+        {
+          "date": "2020-03-16T00:00:00",
+          "variable": "Tweets total",
+          "value": 17227183
+        },
+        {
+          "date": "2020-03-15T00:00:00",
+          "variable": "Tweets total",
+          "value": 16438761
+        },
+        {
+          "date": "2020-03-14T00:00:00",
+          "variable": "Tweets total",
+          "value": 16823149
+        },
+        {
+          "date": "2020-03-13T00:00:00",
+          "variable": "Tweets total",
+          "value": 19802672
+        },
+        {
+          "date": "2020-03-12T00:00:00",
+          "variable": "Tweets total",
+          "value": 18799723
+        },
+        {
+          "date": "2020-03-11T00:00:00",
+          "variable": "Tweets total",
+          "value": 9923318
+        },
+        {
+          "date": "2020-03-10T00:00:00",
+          "variable": "Tweets total",
+          "value": 8284673
+        },
+        {
+          "date": "2020-03-09T00:00:00",
+          "variable": "Tweets total",
+          "value": 6386123
+        },
+        {
+          "date": "2020-03-08T00:00:00",
+          "variable": "Tweets total",
+          "value": 4533477
+        },
+        {
+          "date": "2020-03-07T00:00:00",
+          "variable": "Tweets total",
+          "value": 4632240
+        },
+        {
+          "date": "2020-03-06T00:00:00",
+          "variable": "Tweets total",
+          "value": 4581033
+        },
+        {
+          "date": "2020-03-05T00:00:00",
+          "variable": "Tweets total",
+          "value": 4323688
+        },
+        {
+          "date": "2020-03-04T00:00:00",
+          "variable": "Tweets total",
+          "value": 4323671
+        },
+        {
+          "date": "2020-03-03T00:00:00",
+          "variable": "Tweets total",
+          "value": 4342140
+        },
+        {
+          "date": "2020-03-02T00:00:00",
+          "variable": "Tweets total",
+          "value": 4240722
+        },
+        {
+          "date": "2020-03-01T00:00:00",
+          "variable": "Tweets total",
+          "value": 3632690
+        },
+        {
+          "date": "2020-02-29T00:00:00",
+          "variable": "Tweets total",
+          "value": 4666122
+        },
+        {
+          "date": "2020-02-28T00:00:00",
+          "variable": "Tweets total",
+          "value": 5685322
+        },
+        {
+          "date": "2020-02-27T00:00:00",
+          "variable": "Tweets total",
+          "value": 4597413
+        },
+        {
+          "date": "2020-02-26T00:00:00",
+          "variable": "Tweets total",
+          "value": 3989534
+        },
+        {
+          "date": "2020-02-25T00:00:00",
+          "variable": "Tweets total",
+          "value": 2844370
+        },
+        {
+          "date": "2020-02-24T00:00:00",
+          "variable": "Tweets total",
+          "value": 1643545
+        },
+        {
+          "date": "2020-02-23T00:00:00",
+          "variable": "Tweets total",
+          "value": 1233512
+        },
+        {
+          "date": "2020-02-22T00:00:00",
+          "variable": "Tweets total",
+          "value": 997639
+        },
+        {
+          "date": "2020-02-21T00:00:00",
+          "variable": "Tweets total",
+          "value": 954322
+        },
+        {
+          "date": "2020-02-20T00:00:00",
+          "variable": "Tweets total",
+          "value": 622350
+        },
+        {
+          "date": "2020-02-19T00:00:00",
+          "variable": "Tweets total",
+          "value": 626238
+        },
+        {
+          "date": "2020-02-18T00:00:00",
+          "variable": "Tweets total",
+          "value": 628044
+        },
+        {
+          "date": "2020-02-17T00:00:00",
+          "variable": "Tweets total",
+          "value": 626733
+        },
+        {
+          "date": "2020-02-16T00:00:00",
+          "variable": "Tweets total",
+          "value": 625128
+        },
+        {
+          "date": "2020-02-15T00:00:00",
+          "variable": "Tweets total",
+          "value": 624556
+        },
+        {
+          "date": "2020-02-14T00:00:00",
+          "variable": "Tweets total",
+          "value": 622723
+        },
+        {
+          "date": "2020-02-13T00:00:00",
+          "variable": "Tweets total",
+          "value": 956878
+        },
+        {
+          "date": "2020-02-12T00:00:00",
+          "variable": "Tweets total",
+          "value": 911099
+        },
+        {
+          "date": "2020-02-11T00:00:00",
+          "variable": "Tweets total",
+          "value": 908628
+        },
+        {
+          "date": "2020-02-10T00:00:00",
+          "variable": "Tweets total",
+          "value": 807655
+        },
+        {
+          "date": "2020-02-09T00:00:00",
+          "variable": "Tweets total",
+          "value": 796740
+        },
+        {
+          "date": "2020-02-08T00:00:00",
+          "variable": "Tweets total",
+          "value": 803454
+        },
+        {
+          "date": "2020-02-07T00:00:00",
+          "variable": "Tweets total",
+          "value": 987564
+        },
+        {
+          "date": "2020-02-06T00:00:00",
+          "variable": "Tweets total",
+          "value": 834674
+        },
+        {
+          "date": "2020-02-05T00:00:00",
+          "variable": "Tweets total",
+          "value": 803588
+        },
+        {
+          "date": "2020-02-04T00:00:00",
+          "variable": "Tweets total",
+          "value": 997863
+        },
+        {
+          "date": "2020-02-03T00:00:00",
+          "variable": "Tweets total",
+          "value": 1000753
+        },
+        {
+          "date": "2020-02-02T00:00:00",
+          "variable": "Tweets total",
+          "value": 1298477
+        },
+        {
+          "date": "2020-02-01T00:00:00",
+          "variable": "Tweets total",
+          "value": 1287964
+        },
+        {
+          "date": "2020-01-31T00:00:00",
+          "variable": "Tweets total",
+          "value": 1997636
+        },
+        {
+          "date": "2020-01-30T00:00:00",
+          "variable": "Tweets total",
+          "value": 2010977
+        },
+        {
+          "date": "2020-01-29T00:00:00",
+          "variable": "Tweets total",
+          "value": 1623498
+        },
+        {
+          "date": "2020-01-28T00:00:00",
+          "variable": "Tweets total",
+          "value": 1497654
+        },
+        {
+          "date": "2020-01-27T00:00:00",
+          "variable": "Tweets total",
+          "value": 1467599
+        },
+        {
+          "date": "2020-01-26T00:00:00",
+          "variable": "Tweets total",
+          "value": 1678954
+        },
+        {
+          "date": "2020-01-25T00:00:00",
+          "variable": "Tweets total",
+          "value": 1536785
+        },
+        {
+          "date": "2020-01-24T00:00:00",
+          "variable": "Tweets total",
+          "value": 1153246
+        },
+        {
+          "date": "2020-01-23T00:00:00",
+          "variable": "Tweets total",
+          "value": 905674
+        },
+        {
+          "date": "2020-01-22T00:00:00",
+          "variable": "Tweets total",
+          "value": 508624
+        },
+        {
+          "date": "2020-01-21T00:00:00",
+          "variable": "Tweets total",
+          "value": 259865
+        },
+        {
+          "date": "2020-01-20T00:00:00",
+          "variable": "Tweets total",
+          "value": 100125
+        },
+        {
+          "date": "2020-04-07T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13557
+        },
+        {
+          "date": "2020-04-06T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13573
+        },
+        {
+          "date": "2020-04-05T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13642
+        },
+        {
+          "date": "2020-04-04T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13575
+        },
+        {
+          "date": "2020-04-03T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13549
+        },
+        {
+          "date": "2020-04-02T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 19851
+        },
+        {
+          "date": "2020-04-01T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13660
+        },
+        {
+          "date": "2020-03-31T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13511
+        },
+        {
+          "date": "2020-03-30T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13598
+        },
+        {
+          "date": "2020-03-29T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13590
+        },
+        {
+          "date": "2020-03-28T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13574
+        },
+        {
+          "date": "2020-03-27T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13541
+        },
+        {
+          "date": "2020-03-26T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13548
+        },
+        {
+          "date": "2020-03-25T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13575
+        },
+        {
+          "date": "2020-03-24T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13551
+        },
+        {
+          "date": "2020-03-23T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13545
+        },
+        {
+          "date": "2020-03-22T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13499
+        },
+        {
+          "date": "2020-03-21T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13605
+        },
+        {
+          "date": "2020-03-20T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13553
+        },
+        {
+          "date": "2020-03-19T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13551
+        },
+        {
+          "date": "2020-03-18T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 16628
+        },
+        {
+          "date": "2020-03-17T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13490
+        },
+        {
+          "date": "2020-03-16T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13586
+        },
+        {
+          "date": "2020-03-15T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13718
+        },
+        {
+          "date": "2020-03-14T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13588
+        },
+        {
+          "date": "2020-03-13T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 26664
+        },
+        {
+          "date": "2020-03-12T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13682
+        },
+        {
+          "date": "2020-03-11T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13634
+        },
+        {
+          "date": "2020-03-10T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13585
+        },
+        {
+          "date": "2020-03-09T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13565
+        },
+        {
+          "date": "2020-03-08T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 4454
+        },
+        {
+          "date": "2020-03-07T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13674
+        },
+        {
+          "date": "2020-03-06T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13673
+        },
+        {
+          "date": "2020-03-05T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13654
+        },
+        {
+          "date": "2020-03-04T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13761
+        },
+        {
+          "date": "2020-03-03T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13728
+        },
+        {
+          "date": "2020-03-02T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13619
+        },
+        {
+          "date": "2020-03-01T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13628
+        },
+        {
+          "date": "2020-02-29T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13695
+        },
+        {
+          "date": "2020-02-28T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13697
+        },
+        {
+          "date": "2020-02-27T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13795
+        },
+        {
+          "date": "2020-02-26T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13481
+        },
+        {
+          "date": "2020-02-25T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13735
+        },
+        {
+          "date": "2020-02-24T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 27006
+        },
+        {
+          "date": "2020-02-23T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13677
+        },
+        {
+          "date": "2020-02-22T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 2804
+        },
+        {
+          "date": "2020-02-21T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13639
+        },
+        {
+          "date": "2020-02-20T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13584
+        },
+        {
+          "date": "2020-02-19T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13428
+        },
+        {
+          "date": "2020-02-18T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13651
+        },
+        {
+          "date": "2020-02-17T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13707
+        },
+        {
+          "date": "2020-02-16T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13635
+        },
+        {
+          "date": "2020-02-15T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13540
+        },
+        {
+          "date": "2020-02-14T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13608
+        },
+        {
+          "date": "2020-02-13T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13712
+        },
+        {
+          "date": "2020-02-12T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13706
+        },
+        {
+          "date": "2020-02-11T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13695
+        },
+        {
+          "date": "2020-02-10T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13583
+        },
+        {
+          "date": "2020-02-09T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13621
+        },
+        {
+          "date": "2020-02-08T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13712
+        },
+        {
+          "date": "2020-02-07T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13633
+        },
+        {
+          "date": "2020-02-06T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13643
+        },
+        {
+          "date": "2020-02-05T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13604
+        },
+        {
+          "date": "2020-02-04T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13624
+        },
+        {
+          "date": "2020-02-03T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13618
+        },
+        {
+          "date": "2020-02-02T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13625
+        },
+        {
+          "date": "2020-02-01T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13686
+        },
+        {
+          "date": "2020-01-31T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13550
+        },
+        {
+          "date": "2020-01-30T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13656
+        },
+        {
+          "date": "2020-01-29T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13708
+        },
+        {
+          "date": "2020-01-28T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13695
+        },
+        {
+          "date": "2020-01-27T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13660
+        },
+        {
+          "date": "2020-01-26T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13731
+        },
+        {
+          "date": "2020-01-25T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 11624
+        },
+        {
+          "date": "2020-01-24T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13569
+        },
+        {
+          "date": "2020-01-23T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13542
+        },
+        {
+          "date": "2020-01-22T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13532
+        },
+        {
+          "date": "2020-01-21T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 13689
+        },
+        {
+          "date": "2020-01-20T00:00:00",
+          "variable": "Tweets sampled",
+          "value": 10533
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-fd2ffe389be9256433960a856bcb7b03",
+      "transform": [
+        {"type": "formula", "expr": "toDate(datum[\"date\"])", "as": "date"}
+      ]
+    },
+    {
+      "name": "data_1",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "(isDate(datum[\"date\"]) || (isValid(datum[\"date\"]) && isFinite(+datum[\"date\"])))"
+        }
+      ]
+    },
+    {
+      "name": "data_2",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "(isDate(datum[\"date\"]) || (isValid(datum[\"date\"]) && isFinite(+datum[\"date\"]))) && isValid(datum[\"value\"]) && isFinite(+datum[\"value\"])"
+        }
+      ]
+    },
+    {
+      "name": "data_3",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "(vlSelectionTest(\"selector065_store\", datum))"
+        },
+        {
+          "type": "filter",
+          "expr": "(isDate(datum[\"date\"]) || (isValid(datum[\"date\"]) && isFinite(+datum[\"date\"])))"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "selector065",
+      "update": "vlSelectionResolve(\"selector065_store\", \"union\")"
+    },
+    {
+      "name": "selector065_tuple",
+      "on": [
+        {
+          "events": [
+            {
+              "source": "scope",
+              "type": "mouseover",
+              "markname": "layer_1_voronoi"
+            }
+          ],
+          "update": "datum && item().mark.marktype !== 'group' ? {unit: \"layer_1\", fields: selector065_tuple_fields, values: [(item().isVoronoi ? datum.datum : datum)[\"date\"]]} : null",
+          "force": true
+        },
+        {"events": [{"source": "scope", "type": "dblclick"}], "update": "null"}
+      ]
+    },
+    {
+      "name": "selector065_tuple_fields",
+      "value": [{"type": "E", "field": "date"}]
+    },
+    {
+      "name": "selector065_modify",
+      "on": [
+        {
+          "events": {"signal": "selector065_tuple"},
+          "update": "modify(\"selector065_store\", selector065_tuple, true)"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "layer_0_pathgroup",
+      "type": "group",
+      "from": {
+        "facet": {
+          "name": "faceted_path_layer_0_main",
+          "data": "data_0",
+          "groupby": ["variable"]
+        }
+      },
+      "encode": {
+        "update": {
+          "width": {"field": {"group": "width"}},
+          "height": {"field": {"group": "height"}}
+        }
+      },
+      "marks": [
+        {
+          "name": "layer_0_marks",
+          "type": "area",
+          "style": ["area"],
+          "sort": {"field": "datum[\"date\"]"},
+          "interactive": false,
+          "from": {"data": "faceted_path_layer_0_main"},
+          "encode": {
+            "update": {
+              "opacity": {"value": 0.6},
+              "orient": {"value": "vertical"},
+              "fill": {"scale": "color", "field": "variable"},
+              "x": {"scale": "x", "field": "date"},
+              "y": {"scale": "y", "field": "value"},
+              "y2": {"field": {"group": "height"}},
+              "defined": {
+                "signal": "isValid(datum[\"date\"]) && isFinite(+datum[\"date\"]) && isValid(datum[\"value\"]) && isFinite(+datum[\"value\"])"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "layer_1_marks",
+      "type": "symbol",
+      "style": ["point"],
+      "interactive": true,
+      "from": {"data": "data_1"},
+      "encode": {
+        "update": {
+          "opacity": {"value": 0},
+          "fill": {"value": "transparent"},
+          "stroke": {"value": "#4c78a8"},
+          "x": {"scale": "x", "field": "date"},
+          "y": {"signal": "height", "mult": 0.5}
+        }
+      }
+    },
+    {
+      "name": "layer_1_voronoi",
+      "type": "path",
+      "interactive": true,
+      "from": {"data": "layer_1_marks"},
+      "encode": {
+        "update": {
+          "fill": {"value": "transparent"},
+          "strokeWidth": {"value": 0.35},
+          "stroke": {"value": "transparent"},
+          "isVoronoi": {"value": true}
+        }
+      },
+      "transform": [
+        {
+          "type": "voronoi",
+          "x": {"expr": "datum.datum.x || 0"},
+          "y": {"expr": "datum.datum.y || 0"},
+          "size": [{"signal": "width"}, {"signal": "height"}]
+        }
+      ]
+    },
+    {
+      "name": "layer_2_marks",
+      "type": "symbol",
+      "style": ["point"],
+      "interactive": false,
+      "from": {"data": "data_2"},
+      "encode": {
+        "update": {
+          "opacity": [
+            {
+              "test": "(vlSelectionTest(\"selector065_store\", datum))",
+              "value": 1
+            },
+            {"value": 0}
+          ],
+          "fill": {"value": "transparent"},
+          "stroke": {"scale": "color", "field": "variable"},
+          "x": {"scale": "x", "field": "date"},
+          "y": {"scale": "y", "field": "value"}
+        }
+      }
+    },
+    {
+      "name": "layer_3_marks",
+      "type": "rule",
+      "style": ["rule"],
+      "interactive": false,
+      "from": {"data": "data_3"},
+      "encode": {
+        "update": {
+          "stroke": {"value": "gray"},
+          "x": {"scale": "x", "field": "date"},
+          "y": {"value": 0},
+          "y2": {"field": {"group": "height"}}
+        }
+      }
+    },
+    {
+      "name": "layer_4_marks",
+      "type": "text",
+      "style": ["text"],
+      "interactive": false,
+      "from": {"data": "data_2"},
+      "encode": {
+        "update": {
+          "align": {"value": "left"},
+          "dx": {"value": 5},
+          "dy": {"value": -20},
+          "fill": {"scale": "color", "field": "variable"},
+          "x": {"scale": "x", "field": "date"},
+          "y": {"scale": "y", "field": "value"},
+          "text": [
+            {
+              "test": "(vlSelectionTest(\"selector065_store\", datum))",
+              "signal": "timeFormat(datum[\"date\"], '%b %d, %Y')"
+            },
+            {"value": " "}
+          ],
+          "baseline": {"value": "middle"}
+        }
+      }
+    },
+    {
+      "name": "layer_5_marks",
+      "type": "text",
+      "style": ["text"],
+      "interactive": false,
+      "from": {"data": "data_2"},
+      "encode": {
+        "update": {
+          "align": {"value": "left"},
+          "dx": {"value": 5},
+          "dy": {"value": -5},
+          "fill": {"scale": "color", "field": "variable"},
+          "x": {"scale": "x", "field": "date"},
+          "y": {"scale": "y", "field": "value"},
+          "text": [
+            {
+              "test": "(vlSelectionTest(\"selector065_store\", datum))",
+              "signal": "format(datum[\"value\"], \"\")"
+            },
+            {"value": " "}
+          ],
+          "baseline": {"value": "middle"}
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "time",
+      "domain": {
+        "fields": [
+          {"data": "data_0", "field": "date"},
+          {"data": "data_1", "field": "date"},
+          {"data": "data_2", "field": "date"},
+          {"data": "data_3", "field": "date"}
+        ]
+      },
+      "range": [0, {"signal": "width"}]
+    },
+    {
+      "name": "y",
+      "type": "log",
+      "domain": {
+        "fields": [
+          {"data": "data_0", "field": "value"},
+          {"data": "data_2", "field": "value"}
+        ]
+      },
+      "range": [{"signal": "height"}, 0],
+      "nice": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": ["Tweets total", "Tweets sampled"],
+      "range": ["#1da1f2", "#0062a2"]
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "gridScale": "y",
+      "grid": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "domain": false,
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "gridScale": "x",
+      "grid": true,
+      "domain": false,
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "title": "date",
+      "labelFlush": true,
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "grid": false,
+      "title": "Number of Tweets, logscale",
+      "labelOverlap": "greedy",
+      "zindex": 0
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "symbolType": "circle",
+      "title": "variable",
+      "encode": {"symbols": {"update": {"opacity": {"value": 0.6}}}},
+      "stroke": "color"
+    }
+  ]
+}

@@ -1,0 +1,1183 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "width": 600,
+  "height": 300,
+  "title": {
+    "text": "Compare number of tweets to pandemic data",
+    "frame": "group"
+  },
+  "style": "cell",
+  "data": [
+    {
+      "name": "selector094_store",
+      "values": [
+        {
+          "unit": "layer_0",
+          "fields": [{"type": "E", "field": "column"}],
+          "values": ["new_cases"]
+        }
+      ]
+    },
+    {
+      "name": "data-27113260fdabff0114d8131af728b331",
+      "values": [
+        {
+          "date": "2020-04-07T00:00:00",
+          "Tweets": 7877346,
+          "total_cases": 2691782,
+          "new_cases": 146530,
+          "new_deaths": 10680,
+          "new_tests": 550762,
+          "cnn_articles": 77,
+          "fox_articles": 230
+        },
+        {
+          "date": "2020-04-06T00:00:00",
+          "Tweets": 8153966,
+          "total_cases": 2545252,
+          "new_cases": 132520,
+          "new_deaths": 9512,
+          "new_tests": 388523,
+          "cnn_articles": 74,
+          "fox_articles": 169
+        },
+        {
+          "date": "2020-04-05T00:00:00",
+          "Tweets": 7421877,
+          "total_cases": 2412577,
+          "new_cases": 170540,
+          "new_deaths": 12616,
+          "new_tests": 424623,
+          "cnn_articles": 48,
+          "fox_articles": 96
+        },
+        {
+          "date": "2020-04-04T00:00:00",
+          "Tweets": 7928225,
+          "total_cases": 2242192,
+          "new_cases": 163998,
+          "new_deaths": 13552,
+          "new_tests": 408542,
+          "cnn_articles": 36,
+          "fox_articles": 120
+        },
+        {
+          "date": "2020-04-03T00:00:00",
+          "Tweets": 9357113,
+          "total_cases": 2078194,
+          "new_cases": 155292,
+          "new_deaths": 10018,
+          "new_tests": 466182,
+          "cnn_articles": 80,
+          "fox_articles": 235
+        },
+        {
+          "date": "2020-04-02T00:00:00",
+          "Tweets": 9767918,
+          "total_cases": 1922902,
+          "new_cases": 155294,
+          "new_deaths": 10020,
+          "new_tests": 414784,
+          "cnn_articles": 85,
+          "fox_articles": 260
+        },
+        {
+          "date": "2020-04-01T00:00:00",
+          "Tweets": 10402981,
+          "total_cases": 1767603,
+          "new_cases": 149678,
+          "new_deaths": 9348,
+          "new_tests": 430541,
+          "cnn_articles": 71,
+          "fox_articles": 260
+        },
+        {
+          "date": "2020-03-31T00:00:00",
+          "Tweets": 10442432,
+          "total_cases": 1617838,
+          "new_cases": 129426,
+          "new_deaths": 7972,
+          "new_tests": 274983,
+          "cnn_articles": 75,
+          "fox_articles": 144
+        },
+        {
+          "date": "2020-03-30T00:00:00",
+          "Tweets": 10125714,
+          "total_cases": 1488504,
+          "new_cases": 114728,
+          "new_deaths": 6456,
+          "new_tests": 245286,
+          "cnn_articles": 60,
+          "fox_articles": 204
+        },
+        {
+          "date": "2020-03-29T00:00:00",
+          "Tweets": 9333426,
+          "total_cases": 1373776,
+          "new_cases": 125708,
+          "new_deaths": 7174,
+          "new_tests": 293899,
+          "cnn_articles": 33,
+          "fox_articles": 108
+        },
+        {
+          "date": "2020-03-28T00:00:00",
+          "Tweets": 10434671,
+          "total_cases": 1248068,
+          "new_cases": 130370,
+          "new_deaths": 6982,
+          "new_tests": 255810,
+          "cnn_articles": 29,
+          "fox_articles": 84
+        },
+        {
+          "date": "2020-03-27T00:00:00",
+          "Tweets": 12209011,
+          "total_cases": 1117698,
+          "new_cases": 122218,
+          "new_deaths": 5610,
+          "new_tests": 296059,
+          "cnn_articles": 61,
+          "fox_articles": 210
+        },
+        {
+          "date": "2020-03-26T00:00:00",
+          "Tweets": 12236719,
+          "total_cases": 995480,
+          "new_cases": 107670,
+          "new_deaths": 5288,
+          "new_tests": 254519,
+          "cnn_articles": 81,
+          "fox_articles": 256
+        },
+        {
+          "date": "2020-03-25T00:00:00",
+          "Tweets": 13000269,
+          "total_cases": 887803,
+          "new_cases": 85072,
+          "new_deaths": 4610,
+          "new_tests": 229455,
+          "cnn_articles": 61,
+          "fox_articles": 260
+        },
+        {
+          "date": "2020-03-24T00:00:00",
+          "Tweets": 14445841,
+          "total_cases": 802736,
+          "new_cases": 89140,
+          "new_deaths": 3708,
+          "new_tests": 209309,
+          "cnn_articles": 69,
+          "fox_articles": 253
+        },
+        {
+          "date": "2020-03-23T00:00:00",
+          "Tweets": 15446246,
+          "total_cases": 713589,
+          "new_cases": 68540,
+          "new_deaths": 3376,
+          "new_tests": 191374,
+          "cnn_articles": 54,
+          "fox_articles": 231
+        },
+        {
+          "date": "2020-03-22T00:00:00",
+          "Tweets": 14392561,
+          "total_cases": 645049,
+          "new_cases": 68452,
+          "new_deaths": 3434,
+          "new_tests": 123496,
+          "cnn_articles": 33,
+          "fox_articles": 101
+        },
+        {
+          "date": "2020-03-21T00:00:00",
+          "Tweets": 12861351,
+          "total_cases": 576597,
+          "new_cases": 63976,
+          "new_deaths": 2770,
+          "new_tests": 160041,
+          "cnn_articles": 30,
+          "fox_articles": 75
+        },
+        {
+          "date": "2020-03-20T00:00:00",
+          "Tweets": 15200259,
+          "total_cases": 512626,
+          "new_cases": 62392,
+          "new_deaths": 2148,
+          "new_tests": 172207,
+          "cnn_articles": 54,
+          "fox_articles": 186
+        },
+        {
+          "date": "2020-03-19T00:00:00",
+          "Tweets": 16582131,
+          "total_cases": 450230,
+          "new_cases": 40588,
+          "new_deaths": 1916,
+          "new_tests": 137298,
+          "cnn_articles": 67,
+          "fox_articles": 246
+        },
+        {
+          "date": "2020-03-18T00:00:00",
+          "Tweets": 16561524,
+          "total_cases": 409642,
+          "new_cases": 34184,
+          "new_deaths": 1624,
+          "new_tests": 108165,
+          "cnn_articles": 57,
+          "fox_articles": 241
+        },
+        {
+          "date": "2020-03-17T00:00:00",
+          "Tweets": 17417142,
+          "total_cases": 375446,
+          "new_cases": 28482,
+          "new_deaths": 1212,
+          "new_tests": 100650,
+          "cnn_articles": 57,
+          "fox_articles": 247
+        },
+        {
+          "date": "2020-03-16T00:00:00",
+          "Tweets": 17227182,
+          "total_cases": 346948,
+          "new_cases": 24958,
+          "new_deaths": 1500,
+          "new_tests": 65453,
+          "cnn_articles": 57,
+          "fox_articles": 204
+        },
+        {
+          "date": "2020-03-15T00:00:00",
+          "Tweets": 16438760,
+          "total_cases": 321919,
+          "new_cases": 24400,
+          "new_deaths": 734,
+          "new_tests": 48937,
+          "cnn_articles": 17,
+          "fox_articles": 91
+        },
+        {
+          "date": "2020-03-14T00:00:00",
+          "Tweets": 16823148,
+          "total_cases": 297395,
+          "new_cases": 20910,
+          "new_deaths": 884,
+          "new_tests": 56751,
+          "cnn_articles": 25,
+          "fox_articles": 49
+        },
+        {
+          "date": "2020-03-13T00:00:00",
+          "Tweets": 19802671,
+          "total_cases": 276218,
+          "new_cases": 18948,
+          "new_deaths": 702,
+          "new_tests": 36983,
+          "cnn_articles": 44,
+          "fox_articles": 159
+        },
+        {
+          "date": "2020-03-12T00:00:00",
+          "Tweets": 18799722,
+          "total_cases": 257589,
+          "new_cases": 15844,
+          "new_deaths": 662,
+          "new_tests": 37920,
+          "cnn_articles": 43,
+          "fox_articles": 185
+        },
+        {
+          "date": "2020-03-11T00:00:00",
+          "Tweets": 9923317,
+          "total_cases": 241807,
+          "new_cases": 10236,
+          "new_deaths": 544,
+          "new_tests": 37572,
+          "cnn_articles": 24,
+          "fox_articles": 107
+        },
+        {
+          "date": "2020-03-10T00:00:00",
+          "Tweets": 8284672,
+          "total_cases": 231365,
+          "new_cases": 9636,
+          "new_deaths": 418,
+          "new_tests": 33145,
+          "cnn_articles": 21,
+          "fox_articles": 104
+        },
+        {
+          "date": "2020-03-09T00:00:00",
+          "Tweets": 6386122,
+          "total_cases": 221802,
+          "new_cases": 8358,
+          "new_deaths": 456,
+          "new_tests": 26947,
+          "cnn_articles": 24,
+          "fox_articles": 89
+        },
+        {
+          "date": "2020-03-08T00:00:00",
+          "Tweets": 4533476,
+          "total_cases": 213462,
+          "new_cases": 7956,
+          "new_deaths": 194,
+          "new_tests": 20910,
+          "cnn_articles": 7,
+          "fox_articles": 39
+        },
+        {
+          "date": "2020-03-07T00:00:00",
+          "Tweets": 4632239,
+          "total_cases": 205522,
+          "new_cases": 8240,
+          "new_deaths": 208,
+          "new_tests": 29799,
+          "cnn_articles": 9,
+          "fox_articles": 37
+        },
+        {
+          "date": "2020-03-06T00:00:00",
+          "Tweets": 4581032,
+          "total_cases": 197390,
+          "new_cases": 6120,
+          "new_deaths": 204,
+          "new_tests": 41186,
+          "cnn_articles": 16,
+          "fox_articles": 60
+        },
+        {
+          "date": "2020-03-05T00:00:00",
+          "Tweets": 4323687,
+          "total_cases": 191200,
+          "new_cases": 4714,
+          "new_deaths": 160,
+          "new_tests": 20561,
+          "cnn_articles": 12,
+          "fox_articles": 50
+        },
+        {
+          "date": "2020-03-04T00:00:00",
+          "Tweets": 4323670,
+          "total_cases": 186473,
+          "new_cases": 4630,
+          "new_deaths": 168,
+          "new_tests": 28886,
+          "cnn_articles": 14,
+          "fox_articles": 65
+        },
+        {
+          "date": "2020-03-03T00:00:00",
+          "Tweets": 4342139,
+          "total_cases": 181806,
+          "new_cases": 3716,
+          "new_deaths": 144,
+          "new_tests": 23288,
+          "cnn_articles": 7,
+          "fox_articles": 49
+        },
+        {
+          "date": "2020-03-02T00:00:00",
+          "Tweets": 4240721,
+          "total_cases": 178318,
+          "new_cases": 4136,
+          "new_deaths": 134,
+          "new_tests": 16716,
+          "cnn_articles": 9,
+          "fox_articles": 62
+        },
+        {
+          "date": "2020-03-01T00:00:00",
+          "Tweets": 3632689,
+          "total_cases": 174182,
+          "new_cases": 3686,
+          "new_deaths": 116,
+          "new_tests": 13724,
+          "cnn_articles": 9,
+          "fox_articles": 24
+        },
+        {
+          "date": "2020-02-29T00:00:00",
+          "Tweets": 4666121,
+          "total_cases": 170496,
+          "new_cases": 3720,
+          "new_deaths": 128,
+          "new_tests": 17851,
+          "cnn_articles": 6,
+          "fox_articles": 27
+        },
+        {
+          "date": "2020-02-28T00:00:00",
+          "Tweets": 5685321,
+          "total_cases": 166776,
+          "new_cases": 2542,
+          "new_deaths": 114,
+          "new_tests": 24995,
+          "cnn_articles": 6,
+          "fox_articles": 43
+        },
+        {
+          "date": "2020-02-27T00:00:00",
+          "Tweets": 4597412,
+          "total_cases": 164234,
+          "new_cases": 2228,
+          "new_deaths": 76,
+          "new_tests": 16869,
+          "cnn_articles": 10,
+          "fox_articles": 69
+        },
+        {
+          "date": "2020-02-26T00:00:00",
+          "Tweets": 3989533,
+          "total_cases": 162006,
+          "new_cases": 1734,
+          "new_deaths": 128,
+          "new_tests": 11729,
+          "cnn_articles": 9,
+          "fox_articles": 52
+        },
+        {
+          "date": "2020-02-25T00:00:00",
+          "Tweets": 2844369,
+          "total_cases": 160272,
+          "new_cases": 1590,
+          "new_deaths": 158,
+          "new_tests": 9879,
+          "cnn_articles": 8,
+          "fox_articles": 22
+        },
+        {
+          "date": "2020-02-24T00:00:00",
+          "Tweets": 1643544,
+          "total_cases": 158682,
+          "new_cases": 1046,
+          "new_deaths": 312,
+          "new_tests": 7460,
+          "cnn_articles": 6,
+          "fox_articles": 19
+        },
+        {
+          "date": "2020-02-23T00:00:00",
+          "Tweets": 1233511,
+          "total_cases": 157636,
+          "new_cases": 2020,
+          "new_deaths": 208,
+          "new_tests": 3765,
+          "cnn_articles": 2,
+          "fox_articles": 4
+        },
+        {
+          "date": "2020-02-22T00:00:00",
+          "Tweets": 997638,
+          "total_cases": 155616,
+          "new_cases": 2170,
+          "new_deaths": 224,
+          "new_tests": 9615,
+          "cnn_articles": 1,
+          "fox_articles": 4
+        },
+        {
+          "date": "2020-02-21T00:00:00",
+          "Tweets": 954321,
+          "total_cases": 153446,
+          "new_cases": 1992,
+          "new_deaths": 238,
+          "new_tests": 6042,
+          "cnn_articles": 3,
+          "fox_articles": 19
+        },
+        {
+          "date": "2020-02-20T00:00:00",
+          "Tweets": 622349,
+          "total_cases": 151454,
+          "new_cases": 1064,
+          "new_deaths": 232,
+          "new_tests": 2990,
+          "cnn_articles": 2,
+          "fox_articles": 9
+        },
+        {
+          "date": "2020-02-19T00:00:00",
+          "Tweets": 626237,
+          "total_cases": 150390,
+          "new_cases": 3728,
+          "new_deaths": 278,
+          "new_tests": 2465,
+          "cnn_articles": 3,
+          "fox_articles": 12
+        },
+        {
+          "date": "2020-02-18T00:00:00",
+          "Tweets": 628043,
+          "total_cases": 146662,
+          "new_cases": 3990,
+          "new_deaths": 196,
+          "new_tests": 4068,
+          "cnn_articles": 4,
+          "fox_articles": 17
+        },
+        {
+          "date": "2020-02-17T00:00:00",
+          "Tweets": 626732,
+          "total_cases": 142672,
+          "new_cases": 4134,
+          "new_deaths": 212,
+          "new_tests": 1613,
+          "cnn_articles": 5,
+          "fox_articles": 18
+        },
+        {
+          "date": "2020-02-16T00:00:00",
+          "Tweets": 625127,
+          "total_cases": 138538,
+          "new_cases": 4324,
+          "new_deaths": 284,
+          "new_tests": 2794,
+          "cnn_articles": 4,
+          "fox_articles": 6
+        },
+        {
+          "date": "2020-02-15T00:00:00",
+          "Tweets": 624555,
+          "total_cases": 134214,
+          "new_cases": 5120,
+          "new_deaths": 288,
+          "new_tests": 1050,
+          "cnn_articles": 3,
+          "fox_articles": 8
+        },
+        {
+          "date": "2020-02-14T00:00:00",
+          "Tweets": 622722,
+          "total_cases": 129094,
+          "new_cases": 8430,
+          "new_deaths": 26,
+          "new_tests": 1793,
+          "cnn_articles": 6,
+          "fox_articles": 14
+        },
+        {
+          "date": "2020-02-13T00:00:00",
+          "Tweets": 956877,
+          "total_cases": 120664,
+          "new_cases": 30302,
+          "new_deaths": 510,
+          "new_tests": 1152,
+          "cnn_articles": 4,
+          "fox_articles": 21
+        },
+        {
+          "date": "2020-02-12T00:00:00",
+          "Tweets": 911098,
+          "total_cases": 90362,
+          "new_cases": 4144,
+          "new_deaths": 194,
+          "new_tests": 2011,
+          "cnn_articles": 2,
+          "fox_articles": 20
+        },
+        {
+          "date": "2020-02-11T00:00:00",
+          "Tweets": 908627,
+          "total_cases": 86218,
+          "new_cases": 5126,
+          "new_deaths": 216,
+          "new_tests": 1407,
+          "cnn_articles": 4,
+          "fox_articles": 18
+        },
+        {
+          "date": "2020-02-10T00:00:00",
+          "Tweets": 807654,
+          "total_cases": 81092,
+          "new_cases": 5984,
+          "new_deaths": 194,
+          "new_tests": 1506,
+          "cnn_articles": 1,
+          "fox_articles": 13
+        },
+        {
+          "date": "2020-02-09T00:00:00",
+          "Tweets": 796739,
+          "total_cases": 75108,
+          "new_cases": 5236,
+          "new_deaths": 178,
+          "new_tests": 2328,
+          "cnn_articles": 0,
+          "fox_articles": 10
+        },
+        {
+          "date": "2020-02-08T00:00:00",
+          "Tweets": 803453,
+          "total_cases": 69872,
+          "new_cases": 6884,
+          "new_deaths": 172,
+          "new_tests": 1549,
+          "cnn_articles": 0,
+          "fox_articles": 11
+        },
+        {
+          "date": "2020-02-07T00:00:00",
+          "Tweets": 987563,
+          "total_cases": 62988,
+          "new_cases": 6436,
+          "new_deaths": 146,
+          "new_tests": 793,
+          "cnn_articles": 0,
+          "fox_articles": 22
+        },
+        {
+          "date": "2020-02-06T00:00:00",
+          "Tweets": 834673,
+          "total_cases": 56552,
+          "new_cases": 7502,
+          "new_deaths": 144,
+          "new_tests": 699,
+          "cnn_articles": 1,
+          "fox_articles": 17
+        },
+        {
+          "date": "2020-02-05T00:00:00",
+          "Tweets": 803587,
+          "total_cases": 49050,
+          "new_cases": 7816,
+          "new_deaths": 132,
+          "new_tests": 914,
+          "cnn_articles": 0,
+          "fox_articles": 20
+        },
+        {
+          "date": "2020-02-04T00:00:00",
+          "Tweets": 997862,
+          "total_cases": 41234,
+          "new_cases": 6486,
+          "new_deaths": 130,
+          "new_tests": 629,
+          "cnn_articles": 1,
+          "fox_articles": 28
+        },
+        {
+          "date": "2020-02-03T00:00:00",
+          "Tweets": 1000752,
+          "total_cases": 34748,
+          "new_cases": 5636,
+          "new_deaths": 114,
+          "new_tests": 426,
+          "cnn_articles": 0,
+          "fox_articles": 20
+        },
+        {
+          "date": "2020-02-02T00:00:00",
+          "Tweets": 1298476,
+          "total_cases": 29112,
+          "new_cases": 5216,
+          "new_deaths": 92,
+          "new_tests": 397,
+          "cnn_articles": 0,
+          "fox_articles": 7
+        },
+        {
+          "date": "2020-02-01T00:00:00",
+          "Tweets": 1287963,
+          "total_cases": 23896,
+          "new_cases": 4244,
+          "new_deaths": 92,
+          "new_tests": 581,
+          "cnn_articles": 0,
+          "fox_articles": 7
+        },
+        {
+          "date": "2020-01-31T00:00:00",
+          "Tweets": 1997635,
+          "total_cases": 19652,
+          "new_cases": 4002,
+          "new_deaths": 86,
+          "new_tests": 421,
+          "cnn_articles": 1,
+          "fox_articles": 19
+        },
+        {
+          "date": "2020-01-30T00:00:00",
+          "Tweets": 2010976,
+          "total_cases": 15650,
+          "new_cases": 3514,
+          "new_deaths": 76,
+          "new_tests": 587,
+          "cnn_articles": 1,
+          "fox_articles": 32
+        },
+        {
+          "date": "2020-01-29T00:00:00",
+          "Tweets": 1623497,
+          "total_cases": 12136,
+          "new_cases": 2960,
+          "new_deaths": 52,
+          "new_tests": 535,
+          "cnn_articles": 1,
+          "fox_articles": 33
+        },
+        {
+          "date": "2020-01-28T00:00:00",
+          "Tweets": 1497653,
+          "total_cases": 9176,
+          "new_cases": 3534,
+          "new_deaths": 50,
+          "new_tests": 569,
+          "cnn_articles": 0,
+          "fox_articles": 22
+        },
+        {
+          "date": "2020-01-27T00:00:00",
+          "Tweets": 1467598,
+          "total_cases": 5642,
+          "new_cases": 1594,
+          "new_deaths": 50,
+          "new_tests": 488,
+          "cnn_articles": 0,
+          "fox_articles": 20
+        },
+        {
+          "date": "2020-01-26T00:00:00",
+          "Tweets": 1678953,
+          "total_cases": 4048,
+          "new_cases": 1346,
+          "new_deaths": 30,
+          "new_tests": 337,
+          "cnn_articles": 0,
+          "fox_articles": 9
+        },
+        {
+          "date": "2020-01-25T00:00:00",
+          "Tweets": 1536784,
+          "total_cases": 2702,
+          "new_cases": 906,
+          "new_deaths": 30,
+          "new_tests": 226,
+          "cnn_articles": 0,
+          "fox_articles": 5
+        },
+        {
+          "date": "2020-01-24T00:00:00",
+          "Tweets": 1153245,
+          "total_cases": 1796,
+          "new_cases": 532,
+          "new_deaths": 18,
+          "new_tests": 289,
+          "cnn_articles": 0,
+          "fox_articles": 10
+        },
+        {
+          "date": "2020-01-23T00:00:00",
+          "Tweets": 905673,
+          "total_cases": 1264,
+          "new_cases": 194,
+          "new_deaths": 0,
+          "new_tests": 360,
+          "cnn_articles": 2,
+          "fox_articles": 20
+        },
+        {
+          "date": "2020-01-22T00:00:00",
+          "Tweets": 508623,
+          "total_cases": 1070,
+          "new_cases": 284,
+          "new_deaths": 22,
+          "new_tests": 348,
+          "cnn_articles": 2,
+          "fox_articles": 10
+        },
+        {
+          "date": "2020-01-21T00:00:00",
+          "Tweets": 259864,
+          "total_cases": 786,
+          "new_cases": 306,
+          "new_deaths": 6,
+          "new_tests": 300,
+          "cnn_articles": 0,
+          "fox_articles": 6
+        },
+        {
+          "date": "2020-01-20T00:00:00",
+          "Tweets": 100124,
+          "total_cases": 480,
+          "new_cases": 40,
+          "new_deaths": 0,
+          "new_tests": 343,
+          "cnn_articles": 0,
+          "fox_articles": 3
+        },
+        {
+          "date": "2020-01-19T00:00:00",
+          "Tweets": 20987,
+          "total_cases": 440,
+          "new_cases": 272,
+          "new_deaths": 2,
+          "new_tests": 129,
+          "cnn_articles": 0,
+          "fox_articles": 0
+        },
+        {
+          "date": "2020-01-18T00:00:00",
+          "Tweets": 23432,
+          "total_cases": 168,
+          "new_cases": 34,
+          "new_deaths": 0,
+          "new_tests": 93,
+          "cnn_articles": 0,
+          "fox_articles": 0
+        },
+        {
+          "date": "2020-01-17T00:00:00",
+          "Tweets": 22431,
+          "total_cases": 134,
+          "new_cases": 10,
+          "new_deaths": 0,
+          "new_tests": 188,
+          "cnn_articles": 1,
+          "fox_articles": 2
+        },
+        {
+          "date": "2020-01-16T00:00:00",
+          "Tweets": 22342,
+          "total_cases": 124,
+          "new_cases": 0,
+          "new_deaths": 0,
+          "new_tests": 244,
+          "cnn_articles": 0,
+          "fox_articles": 1
+        },
+        {
+          "date": "2020-01-15T00:00:00",
+          "Tweets": 10987,
+          "total_cases": 124,
+          "new_cases": 2,
+          "new_deaths": 2,
+          "new_tests": 278,
+          "cnn_articles": 0,
+          "fox_articles": 1
+        },
+        {
+          "date": "2020-01-14T00:00:00",
+          "Tweets": 10023,
+          "total_cases": 122,
+          "new_cases": 2,
+          "new_deaths": 0,
+          "new_tests": 247,
+          "cnn_articles": 0,
+          "fox_articles": 0
+        },
+        {
+          "date": "2020-01-13T00:00:00",
+          "Tweets": 16475,
+          "total_cases": 120,
+          "new_cases": 2,
+          "new_deaths": 0,
+          "new_tests": 239,
+          "cnn_articles": 0,
+          "fox_articles": 1
+        },
+        {
+          "date": "2020-01-12T00:00:00",
+          "Tweets": 10045,
+          "total_cases": 118,
+          "new_cases": 0,
+          "new_deaths": 0,
+          "new_tests": 135,
+          "cnn_articles": 0,
+          "fox_articles": 0
+        },
+        {
+          "date": "2020-01-11T00:00:00",
+          "Tweets": 2812,
+          "total_cases": 118,
+          "new_cases": 0,
+          "new_deaths": 2,
+          "new_tests": 47,
+          "cnn_articles": 0,
+          "fox_articles": 0
+        },
+        {
+          "date": "2020-01-10T00:00:00",
+          "Tweets": 2347,
+          "total_cases": 118,
+          "new_cases": 0,
+          "new_deaths": 0,
+          "new_tests": 164,
+          "cnn_articles": 0,
+          "fox_articles": 0
+        },
+        {
+          "date": "2020-01-09T00:00:00",
+          "Tweets": 3451,
+          "total_cases": 118,
+          "new_cases": 0,
+          "new_deaths": 0,
+          "new_tests": 201,
+          "cnn_articles": 0,
+          "fox_articles": 1
+        },
+        {
+          "date": "2020-01-08T00:00:00",
+          "Tweets": 421,
+          "total_cases": 118,
+          "new_cases": 0,
+          "new_deaths": 0,
+          "new_tests": 169,
+          "cnn_articles": 0,
+          "fox_articles": 0
+        },
+        {
+          "date": "2020-01-07T00:00:00",
+          "Tweets": 293,
+          "total_cases": 118,
+          "new_cases": 0,
+          "new_deaths": 0,
+          "new_tests": 187,
+          "cnn_articles": 0,
+          "fox_articles": 0
+        },
+        {
+          "date": "2020-01-06T00:00:00",
+          "Tweets": 86,
+          "total_cases": 118,
+          "new_cases": 0,
+          "new_deaths": 0,
+          "new_tests": 172,
+          "cnn_articles": 0,
+          "fox_articles": 0
+        },
+        {
+          "date": "2020-01-05T00:00:00",
+          "Tweets": 127,
+          "total_cases": 118,
+          "new_cases": 30,
+          "new_deaths": 0,
+          "new_tests": 83,
+          "cnn_articles": 0,
+          "fox_articles": 0
+        },
+        {
+          "date": "2020-01-04T00:00:00",
+          "Tweets": 172,
+          "total_cases": 88,
+          "new_cases": 0,
+          "new_deaths": 0,
+          "new_tests": 47,
+          "cnn_articles": 0,
+          "fox_articles": 0
+        },
+        {
+          "date": "2020-01-03T00:00:00",
+          "Tweets": 94,
+          "total_cases": 88,
+          "new_cases": 34,
+          "new_deaths": 0,
+          "new_tests": 89,
+          "cnn_articles": 0,
+          "fox_articles": 0
+        },
+        {
+          "date": "2020-01-02T00:00:00",
+          "Tweets": 41,
+          "total_cases": 54,
+          "new_cases": 0,
+          "new_deaths": 0,
+          "new_tests": 72,
+          "cnn_articles": 0,
+          "fox_articles": 0
+        },
+        {
+          "date": "2020-01-01T00:00:00",
+          "Tweets": 63,
+          "total_cases": 54,
+          "new_cases": 0,
+          "new_deaths": 0,
+          "new_tests": 25,
+          "cnn_articles": 0,
+          "fox_articles": 0
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-27113260fdabff0114d8131af728b331",
+      "transform": [
+        {"type": "formula", "expr": "toDate(datum[\"date\"])", "as": "date"}
+      ]
+    },
+    {
+      "name": "data_1",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "fold",
+          "fields": ["new_cases", "new_deaths", "new_tests"],
+          "as": ["column", "value"]
+        },
+        {
+          "type": "filter",
+          "expr": "!(length(data(\"selector094_store\"))) || (vlSelectionTest(\"selector094_store\", datum))"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "selector094_column",
+      "init": "\"new_cases\"",
+      "bind": {
+        "input": "select",
+        "options": ["new_cases", "new_deaths", "new_tests"],
+        "name": "Pandemic data "
+      }
+    },
+    {
+      "name": "selector094",
+      "update": "vlSelectionResolve(\"selector094_store\", \"union\")"
+    },
+    {
+      "name": "selector094_tuple",
+      "update": "selector094_column !== null ? {fields: selector094_tuple_fields, values: [selector094_column]} : null"
+    },
+    {
+      "name": "selector094_tuple_fields",
+      "value": [{"type": "E", "field": "column"}]
+    },
+    {
+      "name": "selector094_modify",
+      "on": [
+        {
+          "events": {"signal": "selector094_tuple"},
+          "update": "modify(\"selector094_store\", selector094_tuple, true)"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "layer_0_marks",
+      "type": "line",
+      "style": ["line"],
+      "sort": {"field": "datum[\"date\"]"},
+      "interactive": true,
+      "from": {"data": "data_1"},
+      "encode": {
+        "update": {
+          "stroke": {"value": "#029006"},
+          "interpolate": {"value": "monotone"},
+          "x": {"scale": "x", "field": "date"},
+          "y": {"scale": "layer_0_y", "field": "value"},
+          "defined": {
+            "signal": "isValid(datum[\"date\"]) && isFinite(+datum[\"date\"]) && isValid(datum[\"value\"]) && isFinite(+datum[\"value\"])"
+          }
+        }
+      }
+    },
+    {
+      "name": "layer_1_marks",
+      "type": "line",
+      "style": ["line"],
+      "sort": {"field": "datum[\"date\"]"},
+      "interactive": false,
+      "from": {"data": "data_0"},
+      "encode": {
+        "update": {
+          "stroke": {"value": "#1da1f2"},
+          "interpolate": {"value": "monotone"},
+          "x": {"scale": "x", "field": "date"},
+          "y": {"scale": "layer_1_y", "field": "Tweets"},
+          "defined": {
+            "signal": "isValid(datum[\"date\"]) && isFinite(+datum[\"date\"]) && isValid(datum[\"Tweets\"]) && isFinite(+datum[\"Tweets\"])"
+          }
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "time",
+      "domain": {
+        "fields": [
+          {"data": "data_1", "field": "date"},
+          {"data": "data_0", "field": "date"}
+        ]
+      },
+      "range": [0, {"signal": "width"}]
+    },
+    {
+      "name": "layer_0_y",
+      "type": "linear",
+      "domain": {"data": "data_1", "field": "value"},
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "layer_1_y",
+      "type": "linear",
+      "domain": {"data": "data_0", "field": "Tweets"},
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "gridScale": "layer_0_y",
+      "grid": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "domain": false,
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "labelFlush": true,
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "zindex": 0
+    },
+    {
+      "scale": "layer_0_y",
+      "orient": "left",
+      "grid": false,
+      "title": "Pandemic Data",
+      "titleColor": "#029006",
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    },
+    {
+      "scale": "layer_1_y",
+      "orient": "right",
+      "grid": false,
+      "title": "Number of tweets",
+      "titleColor": "#1da1f2",
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    }
+  ]
+}
