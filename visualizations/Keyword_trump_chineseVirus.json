@@ -1,0 +1,446 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "width": 600,
+  "height": 300,
+  "title": {"text": "Trumps first 'chinese virus' tweet", "frame": "group"},
+  "style": "cell",
+  "data": [
+    {"name": "selector045_store"},
+    {
+      "name": "data-95e3bd695e81cb9da6ee3a33b07ba76f",
+      "format": {},
+      "values": [
+        {"chinese virus": 18, "date": "2020-01-20T00:00:00"},
+        {"chinese virus": 12, "date": "2020-01-21T00:00:00"},
+        {"chinese virus": 1, "date": "2020-01-22T00:00:00"},
+        {"chinese virus": 0, "date": "2020-01-23T00:00:00"},
+        {"chinese virus": 3, "date": "2020-01-24T00:00:00"},
+        {"chinese virus": 3, "date": "2020-01-25T00:00:00"},
+        {"chinese virus": 4, "date": "2020-01-26T00:00:00"},
+        {"chinese virus": 5, "date": "2020-01-27T00:00:00"},
+        {"chinese virus": 1, "date": "2020-01-28T00:00:00"},
+        {"chinese virus": 2, "date": "2020-01-29T00:00:00"},
+        {"chinese virus": 1, "date": "2020-01-30T00:00:00"},
+        {"chinese virus": 6, "date": "2020-01-31T00:00:00"},
+        {"chinese virus": 3, "date": "2020-02-01T00:00:00"},
+        {"chinese virus": 0, "date": "2020-02-02T00:00:00"},
+        {"chinese virus": 3, "date": "2020-02-03T00:00:00"},
+        {"chinese virus": 0, "date": "2020-02-04T00:00:00"},
+        {"chinese virus": 6, "date": "2020-02-05T00:00:00"},
+        {"chinese virus": 1, "date": "2020-02-06T00:00:00"},
+        {"chinese virus": 1, "date": "2020-02-07T00:00:00"},
+        {"chinese virus": 1, "date": "2020-02-08T00:00:00"},
+        {"chinese virus": 0, "date": "2020-02-09T00:00:00"},
+        {"chinese virus": 1, "date": "2020-02-10T00:00:00"},
+        {"chinese virus": 0, "date": "2020-02-11T00:00:00"},
+        {"chinese virus": 2, "date": "2020-02-12T00:00:00"},
+        {"chinese virus": 1, "date": "2020-02-13T00:00:00"},
+        {"chinese virus": 0, "date": "2020-02-14T00:00:00"},
+        {"chinese virus": 1, "date": "2020-02-15T00:00:00"},
+        {"chinese virus": 1, "date": "2020-02-16T00:00:00"},
+        {"chinese virus": 0, "date": "2020-02-17T00:00:00"},
+        {"chinese virus": 1, "date": "2020-02-18T00:00:00"},
+        {"chinese virus": 0, "date": "2020-02-19T00:00:00"},
+        {"chinese virus": 0, "date": "2020-02-20T00:00:00"},
+        {"chinese virus": 1, "date": "2020-02-21T00:00:00"},
+        {"chinese virus": 0, "date": "2020-02-22T00:00:00"},
+        {"chinese virus": 0, "date": "2020-02-23T00:00:00"},
+        {"chinese virus": 2, "date": "2020-02-24T00:00:00"},
+        {"chinese virus": 0, "date": "2020-02-25T00:00:00"},
+        {"chinese virus": 0, "date": "2020-02-26T00:00:00"},
+        {"chinese virus": 0, "date": "2020-02-27T00:00:00"},
+        {"chinese virus": 2, "date": "2020-02-28T00:00:00"},
+        {"chinese virus": 0, "date": "2020-02-29T00:00:00"},
+        {"chinese virus": 1, "date": "2020-03-01T00:00:00"},
+        {"chinese virus": 0, "date": "2020-03-02T00:00:00"},
+        {"chinese virus": 1, "date": "2020-03-03T00:00:00"},
+        {"chinese virus": 0, "date": "2020-03-04T00:00:00"},
+        {"chinese virus": 0, "date": "2020-03-05T00:00:00"},
+        {"chinese virus": 1, "date": "2020-03-06T00:00:00"},
+        {"chinese virus": 0, "date": "2020-03-07T00:00:00"},
+        {"chinese virus": 0, "date": "2020-03-08T00:00:00"},
+        {"chinese virus": 0, "date": "2020-03-09T00:00:00"},
+        {"chinese virus": 3, "date": "2020-03-10T00:00:00"},
+        {"chinese virus": 3, "date": "2020-03-11T00:00:00"},
+        {"chinese virus": 1, "date": "2020-03-12T00:00:00"},
+        {"chinese virus": 4, "date": "2020-03-13T00:00:00"},
+        {"chinese virus": 0, "date": "2020-03-14T00:00:00"},
+        {"chinese virus": 0, "date": "2020-03-15T00:00:00"},
+        {"chinese virus": 145, "date": "2020-03-16T00:00:00"},
+        {"chinese virus": 83, "date": "2020-03-17T00:00:00"},
+        {"chinese virus": 161, "date": "2020-03-18T00:00:00"},
+        {"chinese virus": 67, "date": "2020-03-19T00:00:00"},
+        {"chinese virus": 47, "date": "2020-03-20T00:00:00"},
+        {"chinese virus": 29, "date": "2020-03-21T00:00:00"},
+        {"chinese virus": 48, "date": "2020-03-22T00:00:00"},
+        {"chinese virus": 44, "date": "2020-03-23T00:00:00"},
+        {"chinese virus": 29, "date": "2020-03-24T00:00:00"},
+        {"chinese virus": 31, "date": "2020-03-25T00:00:00"},
+        {"chinese virus": 58, "date": "2020-03-26T00:00:00"},
+        {"chinese virus": 17, "date": "2020-03-27T00:00:00"},
+        {"chinese virus": 20, "date": "2020-03-28T00:00:00"},
+        {"chinese virus": 20, "date": "2020-03-29T00:00:00"},
+        {"chinese virus": 22, "date": "2020-03-30T00:00:00"},
+        {"chinese virus": 18, "date": "2020-03-31T00:00:00"},
+        {"chinese virus": 23, "date": "2020-04-01T00:00:00"},
+        {"chinese virus": 20, "date": "2020-04-02T00:00:00"},
+        {"chinese virus": 13, "date": "2020-04-03T00:00:00"},
+        {"chinese virus": 19, "date": "2020-04-04T00:00:00"},
+        {"chinese virus": 13, "date": "2020-04-05T00:00:00"},
+        {"chinese virus": 21, "date": "2020-04-06T00:00:00"},
+        {"chinese virus": 13, "date": "2020-04-07T00:00:00"}
+      ]
+    },
+    {
+      "name": "data-6c8d79268951739be09602bbafb3fa07",
+      "values": [{"x": "2020-03-16T00:00:00"}]
+    },
+    {
+      "name": "data-bdc240c3667b8576d58fccb3bbbdb6ee",
+      "values": [
+        {
+          "x": "2020-02-16T00:00:00",
+          "y": 120,
+          "img": "https://raw.githubusercontent.com/rlnrbio/twitter_data_viz/main/trump_first_chinese.PNG?token=AMNFTMJUQUVPQO2DCKHHO3C7SAEDE"
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-95e3bd695e81cb9da6ee3a33b07ba76f",
+      "transform": [
+        {"type": "formula", "expr": "toDate(datum[\"date\"])", "as": "date"}
+      ]
+    },
+    {
+      "name": "data_1",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "(isDate(datum[\"date\"]) || (isValid(datum[\"date\"]) && isFinite(+datum[\"date\"])))"
+        }
+      ]
+    },
+    {
+      "name": "data_2",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "(isDate(datum[\"date\"]) || (isValid(datum[\"date\"]) && isFinite(+datum[\"date\"]))) && isValid(datum[\"chinese virus\"]) && isFinite(+datum[\"chinese virus\"])"
+        }
+      ]
+    },
+    {
+      "name": "data_3",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "(vlSelectionTest(\"selector045_store\", datum))"
+        },
+        {
+          "type": "filter",
+          "expr": "(isDate(datum[\"date\"]) || (isValid(datum[\"date\"]) && isFinite(+datum[\"date\"])))"
+        }
+      ]
+    },
+    {
+      "name": "data_4",
+      "source": "data-6c8d79268951739be09602bbafb3fa07",
+      "transform": [
+        {"type": "formula", "expr": "toDate(datum[\"x\"])", "as": "x"},
+        {
+          "type": "filter",
+          "expr": "(isDate(datum[\"x\"]) || (isValid(datum[\"x\"]) && isFinite(+datum[\"x\"])))"
+        }
+      ]
+    },
+    {
+      "name": "data_5",
+      "source": "data-bdc240c3667b8576d58fccb3bbbdb6ee",
+      "transform": [
+        {"type": "formula", "expr": "toDate(datum[\"x\"])", "as": "x"},
+        {
+          "type": "filter",
+          "expr": "(isDate(datum[\"x\"]) || (isValid(datum[\"x\"]) && isFinite(+datum[\"x\"]))) && isValid(datum[\"y\"]) && isFinite(+datum[\"y\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "selector045",
+      "update": "vlSelectionResolve(\"selector045_store\", \"union\")"
+    },
+    {
+      "name": "selector045_tuple",
+      "on": [
+        {
+          "events": [
+            {
+              "source": "scope",
+              "type": "mouseover",
+              "markname": "layer_1_voronoi"
+            }
+          ],
+          "update": "datum && item().mark.marktype !== 'group' ? {unit: \"layer_1\", fields: selector045_tuple_fields, values: [(item().isVoronoi ? datum.datum : datum)[\"date\"]]} : null",
+          "force": true
+        },
+        {"events": [{"source": "scope", "type": "dblclick"}], "update": "null"}
+      ]
+    },
+    {
+      "name": "selector045_tuple_fields",
+      "value": [{"type": "E", "field": "date"}]
+    },
+    {
+      "name": "selector045_modify",
+      "on": [
+        {
+          "events": {"signal": "selector045_tuple"},
+          "update": "modify(\"selector045_store\", selector045_tuple, true)"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "layer_0_marks",
+      "type": "line",
+      "style": ["line"],
+      "sort": {"field": "datum[\"date\"]"},
+      "interactive": false,
+      "from": {"data": "data_0"},
+      "encode": {
+        "update": {
+          "opacity": {"value": 1},
+          "stroke": {"value": "#0062a2"},
+          "x": {"scale": "x", "field": "date"},
+          "y": {"scale": "y", "field": "chinese virus"},
+          "defined": {
+            "signal": "isValid(datum[\"date\"]) && isFinite(+datum[\"date\"]) && isValid(datum[\"chinese virus\"]) && isFinite(+datum[\"chinese virus\"])"
+          }
+        }
+      }
+    },
+    {
+      "name": "layer_1_marks",
+      "type": "symbol",
+      "style": ["point"],
+      "interactive": true,
+      "from": {"data": "data_1"},
+      "encode": {
+        "update": {
+          "opacity": {"value": 0},
+          "fill": {"value": "transparent"},
+          "stroke": {"value": "#4c78a8"},
+          "x": {"scale": "x", "field": "date"},
+          "y": {"signal": "height", "mult": 0.5}
+        }
+      }
+    },
+    {
+      "name": "layer_1_voronoi",
+      "type": "path",
+      "interactive": true,
+      "from": {"data": "layer_1_marks"},
+      "encode": {
+        "update": {
+          "fill": {"value": "transparent"},
+          "strokeWidth": {"value": 0.35},
+          "stroke": {"value": "transparent"},
+          "isVoronoi": {"value": true}
+        }
+      },
+      "transform": [
+        {
+          "type": "voronoi",
+          "x": {"expr": "datum.datum.x || 0"},
+          "y": {"expr": "datum.datum.y || 0"},
+          "size": [{"signal": "width"}, {"signal": "height"}]
+        }
+      ]
+    },
+    {
+      "name": "layer_2_marks",
+      "type": "symbol",
+      "style": ["point"],
+      "interactive": false,
+      "from": {"data": "data_2"},
+      "encode": {
+        "update": {
+          "opacity": [
+            {
+              "test": "(vlSelectionTest(\"selector045_store\", datum))",
+              "value": 1
+            },
+            {"value": 0}
+          ],
+          "fill": {"value": "transparent"},
+          "stroke": {"value": "#4c78a8"},
+          "x": {"scale": "x", "field": "date"},
+          "y": {"scale": "y", "field": "chinese virus"}
+        }
+      }
+    },
+    {
+      "name": "layer_3_marks",
+      "type": "rule",
+      "style": ["rule"],
+      "interactive": false,
+      "from": {"data": "data_3"},
+      "encode": {
+        "update": {
+          "stroke": {"value": "gray"},
+          "x": {"scale": "x", "field": "date"},
+          "y": {"value": 0},
+          "y2": {"field": {"group": "height"}}
+        }
+      }
+    },
+    {
+      "name": "layer_4_marks",
+      "type": "text",
+      "style": ["text"],
+      "interactive": false,
+      "from": {"data": "data_2"},
+      "encode": {
+        "update": {
+          "align": {"value": "left"},
+          "dx": {"value": 5},
+          "dy": {"value": -20},
+          "fill": {"value": "black"},
+          "x": {"scale": "x", "field": "date"},
+          "y": {"scale": "y", "field": "chinese virus"},
+          "text": [
+            {
+              "test": "(vlSelectionTest(\"selector045_store\", datum))",
+              "signal": "timeFormat(datum[\"date\"], '%b %d, %Y')"
+            },
+            {"value": " "}
+          ],
+          "baseline": {"value": "middle"}
+        }
+      }
+    },
+    {
+      "name": "layer_5_marks",
+      "type": "text",
+      "style": ["text"],
+      "interactive": false,
+      "from": {"data": "data_2"},
+      "encode": {
+        "update": {
+          "align": {"value": "left"},
+          "dx": {"value": 5},
+          "dy": {"value": -5},
+          "fill": {"value": "black"},
+          "x": {"scale": "x", "field": "date"},
+          "y": {"scale": "y", "field": "chinese virus"},
+          "text": [
+            {
+              "test": "(vlSelectionTest(\"selector045_store\", datum))",
+              "signal": "format(datum[\"chinese virus\"], \"\")"
+            },
+            {"value": " "}
+          ],
+          "baseline": {"value": "middle"}
+        }
+      }
+    },
+    {
+      "name": "layer_6_marks",
+      "type": "rule",
+      "style": ["rule"],
+      "interactive": false,
+      "from": {"data": "data_4"},
+      "encode": {
+        "update": {
+          "stroke": {"value": "#1da1f2"},
+          "x": {"scale": "x", "field": "x"},
+          "y": {"value": 0},
+          "y2": {"field": {"group": "height"}}
+        }
+      }
+    },
+    {
+      "name": "layer_7_marks",
+      "type": "image",
+      "style": ["image"],
+      "interactive": false,
+      "from": {"data": "data_5"},
+      "encode": {
+        "update": {
+          "width": {"value": 400},
+          "height": {"value": 200},
+          "xc": {"scale": "x", "field": "x"},
+          "yc": {"scale": "y", "field": "y"},
+          "url": {"signal": "''+datum[\"img\"]"}
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "time",
+      "domain": {
+        "fields": [
+          {"data": "data_0", "field": "date"},
+          {"data": "data_1", "field": "date"},
+          {"data": "data_2", "field": "date"},
+          {"data": "data_3", "field": "date"},
+          {"data": "data_4", "field": "x"},
+          {"data": "data_5", "field": "x"}
+        ]
+      },
+      "range": [0, {"signal": "width"}]
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": {
+        "fields": [
+          {"data": "data_0", "field": "chinese virus"},
+          {"data": "data_2", "field": "chinese virus"},
+          {"data": "data_5", "field": "y"}
+        ]
+      },
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "title": "date",
+      "labelFlush": true,
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "grid": false,
+      "title": "'chinese virus' appearances in dataset",
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    }
+  ]
+}
