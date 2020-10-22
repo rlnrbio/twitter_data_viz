@@ -1,0 +1,1019 @@
+{
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "layer": [
+    {
+      "mark": "circle",
+      "encoding": {
+        "color": {"type": "nominal", "field": "Keyword"},
+        "opacity": {"value": 0},
+        "tooltip": [
+          {"type": "nominal", "field": "Keyword"},
+          {"type": "quantitative", "field": "Keyword appearances"}
+        ],
+        "x": {"type": "temporal", "field": "date"},
+        "y": {
+          "type": "quantitative",
+          "axis": {"grid": false},
+          "field": "Keyword appearances",
+          "title": "Keyword appearances in dataset"
+        }
+      },
+      "selection": {
+        "selector017": {
+          "type": "single",
+          "on": "mouseover",
+          "fields": ["Keyword"],
+          "nearest": true
+        }
+      },
+      "width": 600
+    },
+    {
+      "mark": "line",
+      "encoding": {
+        "color": {"type": "nominal", "field": "Keyword"},
+        "size": {
+          "condition": {"value": 1, "selection": {"not": "selector017"}},
+          "value": 3
+        },
+        "tooltip": [
+          {"type": "nominal", "field": "Keyword"},
+          {"type": "quantitative", "field": "Keyword appearances"}
+        ],
+        "x": {"type": "temporal", "field": "date"},
+        "y": {
+          "type": "quantitative",
+          "axis": {"grid": false},
+          "field": "Keyword appearances",
+          "title": "Keyword appearances in dataset"
+        }
+      }
+    }
+  ],
+  "data": {"name": "data-a69065cbca4d6bc9cc0b7650dc862b5d"},
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json",
+  "datasets": {
+    "data-a69065cbca4d6bc9cc0b7650dc862b5d": [
+      {
+        "date": "2020-01-20",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-21",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-22",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-23",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-24",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-25",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-26",
+        "Keyword": "panic buying",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-01-27",
+        "Keyword": "panic buying",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-01-28",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-29",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-30",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-31",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-01",
+        "Keyword": "panic buying",
+        "Keyword appearances": 4
+      },
+      {
+        "date": "2020-02-02",
+        "Keyword": "panic buying",
+        "Keyword appearances": 3
+      },
+      {
+        "date": "2020-02-03",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-04",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-05",
+        "Keyword": "panic buying",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-02-06",
+        "Keyword": "panic buying",
+        "Keyword appearances": 6
+      },
+      {
+        "date": "2020-02-07",
+        "Keyword": "panic buying",
+        "Keyword appearances": 2
+      },
+      {
+        "date": "2020-02-08",
+        "Keyword": "panic buying",
+        "Keyword appearances": 4
+      },
+      {
+        "date": "2020-02-09",
+        "Keyword": "panic buying",
+        "Keyword appearances": 3
+      },
+      {
+        "date": "2020-02-10",
+        "Keyword": "panic buying",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-02-11",
+        "Keyword": "panic buying",
+        "Keyword appearances": 2
+      },
+      {
+        "date": "2020-02-12",
+        "Keyword": "panic buying",
+        "Keyword appearances": 2
+      },
+      {
+        "date": "2020-02-13",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-14",
+        "Keyword": "panic buying",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-02-15",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-16",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-17",
+        "Keyword": "panic buying",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-02-18",
+        "Keyword": "panic buying",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-02-19",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-20",
+        "Keyword": "panic buying",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-02-21",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-22",
+        "Keyword": "panic buying",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-02-23",
+        "Keyword": "panic buying",
+        "Keyword appearances": 6
+      },
+      {
+        "date": "2020-02-24",
+        "Keyword": "panic buying",
+        "Keyword appearances": 13
+      },
+      {
+        "date": "2020-02-25",
+        "Keyword": "panic buying",
+        "Keyword appearances": 3
+      },
+      {
+        "date": "2020-02-26",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-27",
+        "Keyword": "panic buying",
+        "Keyword appearances": 2
+      },
+      {
+        "date": "2020-02-28",
+        "Keyword": "panic buying",
+        "Keyword appearances": 7
+      },
+      {
+        "date": "2020-02-29",
+        "Keyword": "panic buying",
+        "Keyword appearances": 9
+      },
+      {
+        "date": "2020-03-01",
+        "Keyword": "panic buying",
+        "Keyword appearances": 10
+      },
+      {
+        "date": "2020-03-02",
+        "Keyword": "panic buying",
+        "Keyword appearances": 25
+      },
+      {
+        "date": "2020-03-03",
+        "Keyword": "panic buying",
+        "Keyword appearances": 18
+      },
+      {
+        "date": "2020-03-04",
+        "Keyword": "panic buying",
+        "Keyword appearances": 19
+      },
+      {
+        "date": "2020-03-05",
+        "Keyword": "panic buying",
+        "Keyword appearances": 7
+      },
+      {
+        "date": "2020-03-06",
+        "Keyword": "panic buying",
+        "Keyword appearances": 13
+      },
+      {
+        "date": "2020-03-07",
+        "Keyword": "panic buying",
+        "Keyword appearances": 48
+      },
+      {
+        "date": "2020-03-08",
+        "Keyword": "panic buying",
+        "Keyword appearances": 7
+      },
+      {
+        "date": "2020-03-09",
+        "Keyword": "panic buying",
+        "Keyword appearances": 31
+      },
+      {
+        "date": "2020-03-10",
+        "Keyword": "panic buying",
+        "Keyword appearances": 13
+      },
+      {
+        "date": "2020-03-11",
+        "Keyword": "panic buying",
+        "Keyword appearances": 14
+      },
+      {
+        "date": "2020-03-12",
+        "Keyword": "panic buying",
+        "Keyword appearances": 13
+      },
+      {
+        "date": "2020-03-13",
+        "Keyword": "panic buying",
+        "Keyword appearances": 46
+      },
+      {
+        "date": "2020-03-14",
+        "Keyword": "panic buying",
+        "Keyword appearances": 36
+      },
+      {
+        "date": "2020-03-15",
+        "Keyword": "panic buying",
+        "Keyword appearances": 11
+      },
+      {
+        "date": "2020-03-16",
+        "Keyword": "panic buying",
+        "Keyword appearances": 15
+      },
+      {
+        "date": "2020-03-17",
+        "Keyword": "panic buying",
+        "Keyword appearances": 15
+      },
+      {
+        "date": "2020-03-18",
+        "Keyword": "panic buying",
+        "Keyword appearances": 16
+      },
+      {
+        "date": "2020-03-19",
+        "Keyword": "panic buying",
+        "Keyword appearances": 11
+      },
+      {
+        "date": "2020-03-20",
+        "Keyword": "panic buying",
+        "Keyword appearances": 14
+      },
+      {
+        "date": "2020-03-21",
+        "Keyword": "panic buying",
+        "Keyword appearances": 7
+      },
+      {
+        "date": "2020-03-22",
+        "Keyword": "panic buying",
+        "Keyword appearances": 10
+      },
+      {
+        "date": "2020-03-23",
+        "Keyword": "panic buying",
+        "Keyword appearances": 3
+      },
+      {
+        "date": "2020-03-24",
+        "Keyword": "panic buying",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-03-25",
+        "Keyword": "panic buying",
+        "Keyword appearances": 2
+      },
+      {
+        "date": "2020-03-26",
+        "Keyword": "panic buying",
+        "Keyword appearances": 4
+      },
+      {
+        "date": "2020-03-27",
+        "Keyword": "panic buying",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-03-28",
+        "Keyword": "panic buying",
+        "Keyword appearances": 3
+      },
+      {
+        "date": "2020-03-29",
+        "Keyword": "panic buying",
+        "Keyword appearances": 2
+      },
+      {
+        "date": "2020-03-30",
+        "Keyword": "panic buying",
+        "Keyword appearances": 3
+      },
+      {
+        "date": "2020-03-31",
+        "Keyword": "panic buying",
+        "Keyword appearances": 2
+      },
+      {
+        "date": "2020-04-01",
+        "Keyword": "panic buying",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-04-02",
+        "Keyword": "panic buying",
+        "Keyword appearances": 2
+      },
+      {
+        "date": "2020-04-03",
+        "Keyword": "panic buying",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-04-04",
+        "Keyword": "panic buying",
+        "Keyword appearances": 2
+      },
+      {
+        "date": "2020-04-05",
+        "Keyword": "panic buying",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-04-06",
+        "Keyword": "panic buying",
+        "Keyword appearances": 4
+      },
+      {
+        "date": "2020-04-07",
+        "Keyword": "panic buying",
+        "Keyword appearances": 2
+      },
+      {
+        "date": "2020-04-08",
+        "Keyword": "panic buying",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-01-20",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-21",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-01-22",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-23",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-24",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-25",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-26",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-27",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-28",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-29",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-30",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-01-31",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-02-01",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-02",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-03",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-04",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-05",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 2
+      },
+      {
+        "date": "2020-02-06",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 5
+      },
+      {
+        "date": "2020-02-07",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 4
+      },
+      {
+        "date": "2020-02-08",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 7
+      },
+      {
+        "date": "2020-02-09",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 3
+      },
+      {
+        "date": "2020-02-10",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-11",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-12",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-13",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-14",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 3
+      },
+      {
+        "date": "2020-02-15",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 2
+      },
+      {
+        "date": "2020-02-16",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-17",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 42
+      },
+      {
+        "date": "2020-02-18",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 8
+      },
+      {
+        "date": "2020-02-19",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 2
+      },
+      {
+        "date": "2020-02-20",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-21",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-02-22",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-02-23",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 2
+      },
+      {
+        "date": "2020-02-24",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-02-25",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-02-26",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 0
+      },
+      {
+        "date": "2020-02-27",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 1
+      },
+      {
+        "date": "2020-02-28",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 5
+      },
+      {
+        "date": "2020-02-29",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 13
+      },
+      {
+        "date": "2020-03-01",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 16
+      },
+      {
+        "date": "2020-03-02",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 23
+      },
+      {
+        "date": "2020-03-03",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 84
+      },
+      {
+        "date": "2020-03-04",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 63
+      },
+      {
+        "date": "2020-03-05",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 57
+      },
+      {
+        "date": "2020-03-06",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 65
+      },
+      {
+        "date": "2020-03-07",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 173
+      },
+      {
+        "date": "2020-03-08",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 35
+      },
+      {
+        "date": "2020-03-09",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 100
+      },
+      {
+        "date": "2020-03-10",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 71
+      },
+      {
+        "date": "2020-03-11",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 90
+      },
+      {
+        "date": "2020-03-12",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 106
+      },
+      {
+        "date": "2020-03-13",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 261
+      },
+      {
+        "date": "2020-03-14",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 120
+      },
+      {
+        "date": "2020-03-15",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 64
+      },
+      {
+        "date": "2020-03-16",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 52
+      },
+      {
+        "date": "2020-03-17",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 39
+      },
+      {
+        "date": "2020-03-18",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 60
+      },
+      {
+        "date": "2020-03-19",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 30
+      },
+      {
+        "date": "2020-03-20",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 18
+      },
+      {
+        "date": "2020-03-21",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 18
+      },
+      {
+        "date": "2020-03-22",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 31
+      },
+      {
+        "date": "2020-03-23",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 15
+      },
+      {
+        "date": "2020-03-24",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 12
+      },
+      {
+        "date": "2020-03-25",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 12
+      },
+      {
+        "date": "2020-03-26",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 12
+      },
+      {
+        "date": "2020-03-27",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 20
+      },
+      {
+        "date": "2020-03-28",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 11
+      },
+      {
+        "date": "2020-03-29",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 12
+      },
+      {
+        "date": "2020-03-30",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 10
+      },
+      {
+        "date": "2020-03-31",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 12
+      },
+      {
+        "date": "2020-04-01",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 9
+      },
+      {
+        "date": "2020-04-02",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 21
+      },
+      {
+        "date": "2020-04-03",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 8
+      },
+      {
+        "date": "2020-04-04",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 11
+      },
+      {
+        "date": "2020-04-05",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 9
+      },
+      {
+        "date": "2020-04-06",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 16
+      },
+      {
+        "date": "2020-04-07",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 8
+      },
+      {
+        "date": "2020-04-08",
+        "Keyword": "toilet paper",
+        "Keyword appearances": 12
+      },
+      {"date": "2020-01-20", "Keyword": "lockdown", "Keyword appearances": 2},
+      {"date": "2020-01-21", "Keyword": "lockdown", "Keyword appearances": 2},
+      {"date": "2020-01-22", "Keyword": "lockdown", "Keyword appearances": 60},
+      {"date": "2020-01-23", "Keyword": "lockdown", "Keyword appearances": 153},
+      {"date": "2020-01-24", "Keyword": "lockdown", "Keyword appearances": 96},
+      {"date": "2020-01-25", "Keyword": "lockdown", "Keyword appearances": 82},
+      {"date": "2020-01-26", "Keyword": "lockdown", "Keyword appearances": 31},
+      {"date": "2020-01-27", "Keyword": "lockdown", "Keyword appearances": 25},
+      {"date": "2020-01-28", "Keyword": "lockdown", "Keyword appearances": 16},
+      {"date": "2020-01-29", "Keyword": "lockdown", "Keyword appearances": 14},
+      {"date": "2020-01-30", "Keyword": "lockdown", "Keyword appearances": 42},
+      {"date": "2020-01-31", "Keyword": "lockdown", "Keyword appearances": 13},
+      {"date": "2020-02-01", "Keyword": "lockdown", "Keyword appearances": 51},
+      {"date": "2020-02-02", "Keyword": "lockdown", "Keyword appearances": 33},
+      {"date": "2020-02-03", "Keyword": "lockdown", "Keyword appearances": 32},
+      {"date": "2020-02-04", "Keyword": "lockdown", "Keyword appearances": 37},
+      {"date": "2020-02-05", "Keyword": "lockdown", "Keyword appearances": 42},
+      {"date": "2020-02-06", "Keyword": "lockdown", "Keyword appearances": 42},
+      {"date": "2020-02-07", "Keyword": "lockdown", "Keyword appearances": 52},
+      {"date": "2020-02-08", "Keyword": "lockdown", "Keyword appearances": 45},
+      {"date": "2020-02-09", "Keyword": "lockdown", "Keyword appearances": 29},
+      {"date": "2020-02-10", "Keyword": "lockdown", "Keyword appearances": 20},
+      {"date": "2020-02-11", "Keyword": "lockdown", "Keyword appearances": 21},
+      {"date": "2020-02-12", "Keyword": "lockdown", "Keyword appearances": 20},
+      {"date": "2020-02-13", "Keyword": "lockdown", "Keyword appearances": 59},
+      {"date": "2020-02-14", "Keyword": "lockdown", "Keyword appearances": 79},
+      {"date": "2020-02-15", "Keyword": "lockdown", "Keyword appearances": 44},
+      {"date": "2020-02-16", "Keyword": "lockdown", "Keyword appearances": 56},
+      {"date": "2020-02-17", "Keyword": "lockdown", "Keyword appearances": 40},
+      {"date": "2020-02-18", "Keyword": "lockdown", "Keyword appearances": 39},
+      {"date": "2020-02-19", "Keyword": "lockdown", "Keyword appearances": 56},
+      {"date": "2020-02-20", "Keyword": "lockdown", "Keyword appearances": 69},
+      {"date": "2020-02-21", "Keyword": "lockdown", "Keyword appearances": 66},
+      {"date": "2020-02-22", "Keyword": "lockdown", "Keyword appearances": 44},
+      {"date": "2020-02-23", "Keyword": "lockdown", "Keyword appearances": 137},
+      {"date": "2020-02-24", "Keyword": "lockdown", "Keyword appearances": 84},
+      {"date": "2020-02-25", "Keyword": "lockdown", "Keyword appearances": 44},
+      {"date": "2020-02-26", "Keyword": "lockdown", "Keyword appearances": 8},
+      {"date": "2020-02-27", "Keyword": "lockdown", "Keyword appearances": 10},
+      {"date": "2020-02-28", "Keyword": "lockdown", "Keyword appearances": 14},
+      {"date": "2020-02-29", "Keyword": "lockdown", "Keyword appearances": 12},
+      {"date": "2020-03-01", "Keyword": "lockdown", "Keyword appearances": 47},
+      {"date": "2020-03-02", "Keyword": "lockdown", "Keyword appearances": 16},
+      {"date": "2020-03-03", "Keyword": "lockdown", "Keyword appearances": 12},
+      {"date": "2020-03-04", "Keyword": "lockdown", "Keyword appearances": 18},
+      {"date": "2020-03-05", "Keyword": "lockdown", "Keyword appearances": 10},
+      {"date": "2020-03-06", "Keyword": "lockdown", "Keyword appearances": 8},
+      {"date": "2020-03-07", "Keyword": "lockdown", "Keyword appearances": 60},
+      {"date": "2020-03-08", "Keyword": "lockdown", "Keyword appearances": 20},
+      {"date": "2020-03-09", "Keyword": "lockdown", "Keyword appearances": 195},
+      {"date": "2020-03-10", "Keyword": "lockdown", "Keyword appearances": 83},
+      {"date": "2020-03-11", "Keyword": "lockdown", "Keyword appearances": 75},
+      {"date": "2020-03-12", "Keyword": "lockdown", "Keyword appearances": 38},
+      {"date": "2020-03-13", "Keyword": "lockdown", "Keyword appearances": 125},
+      {"date": "2020-03-14", "Keyword": "lockdown", "Keyword appearances": 95},
+      {"date": "2020-03-15", "Keyword": "lockdown", "Keyword appearances": 72},
+      {"date": "2020-03-16", "Keyword": "lockdown", "Keyword appearances": 88},
+      {"date": "2020-03-17", "Keyword": "lockdown", "Keyword appearances": 130},
+      {"date": "2020-03-18", "Keyword": "lockdown", "Keyword appearances": 162},
+      {"date": "2020-03-19", "Keyword": "lockdown", "Keyword appearances": 86},
+      {"date": "2020-03-20", "Keyword": "lockdown", "Keyword appearances": 96},
+      {"date": "2020-03-21", "Keyword": "lockdown", "Keyword appearances": 149},
+      {"date": "2020-03-22", "Keyword": "lockdown", "Keyword appearances": 190},
+      {"date": "2020-03-23", "Keyword": "lockdown", "Keyword appearances": 307},
+      {"date": "2020-03-24", "Keyword": "lockdown", "Keyword appearances": 349},
+      {"date": "2020-03-25", "Keyword": "lockdown", "Keyword appearances": 328},
+      {"date": "2020-03-26", "Keyword": "lockdown", "Keyword appearances": 191},
+      {"date": "2020-03-27", "Keyword": "lockdown", "Keyword appearances": 487},
+      {"date": "2020-03-28", "Keyword": "lockdown", "Keyword appearances": 299},
+      {"date": "2020-03-29", "Keyword": "lockdown", "Keyword appearances": 273},
+      {"date": "2020-03-30", "Keyword": "lockdown", "Keyword appearances": 325},
+      {"date": "2020-03-31", "Keyword": "lockdown", "Keyword appearances": 282},
+      {"date": "2020-04-01", "Keyword": "lockdown", "Keyword appearances": 236},
+      {"date": "2020-04-02", "Keyword": "lockdown", "Keyword appearances": 299},
+      {"date": "2020-04-03", "Keyword": "lockdown", "Keyword appearances": 207},
+      {"date": "2020-04-04", "Keyword": "lockdown", "Keyword appearances": 289},
+      {"date": "2020-04-05", "Keyword": "lockdown", "Keyword appearances": 223},
+      {"date": "2020-04-06", "Keyword": "lockdown", "Keyword appearances": 285},
+      {"date": "2020-04-07", "Keyword": "lockdown", "Keyword appearances": 214},
+      {"date": "2020-04-08", "Keyword": "lockdown", "Keyword appearances": 289},
+      {"date": "2020-01-20", "Keyword": "isolation", "Keyword appearances": 11},
+      {"date": "2020-01-21", "Keyword": "isolation", "Keyword appearances": 25},
+      {"date": "2020-01-22", "Keyword": "isolation", "Keyword appearances": 6},
+      {"date": "2020-01-23", "Keyword": "isolation", "Keyword appearances": 6},
+      {"date": "2020-01-24", "Keyword": "isolation", "Keyword appearances": 32},
+      {"date": "2020-01-25", "Keyword": "isolation", "Keyword appearances": 23},
+      {"date": "2020-01-26", "Keyword": "isolation", "Keyword appearances": 10},
+      {"date": "2020-01-27", "Keyword": "isolation", "Keyword appearances": 14},
+      {"date": "2020-01-28", "Keyword": "isolation", "Keyword appearances": 15},
+      {"date": "2020-01-29", "Keyword": "isolation", "Keyword appearances": 12},
+      {"date": "2020-01-30", "Keyword": "isolation", "Keyword appearances": 12},
+      {"date": "2020-01-31", "Keyword": "isolation", "Keyword appearances": 4},
+      {"date": "2020-02-01", "Keyword": "isolation", "Keyword appearances": 34},
+      {"date": "2020-02-02", "Keyword": "isolation", "Keyword appearances": 12},
+      {"date": "2020-02-03", "Keyword": "isolation", "Keyword appearances": 22},
+      {"date": "2020-02-04", "Keyword": "isolation", "Keyword appearances": 18},
+      {"date": "2020-02-05", "Keyword": "isolation", "Keyword appearances": 24},
+      {"date": "2020-02-06", "Keyword": "isolation", "Keyword appearances": 20},
+      {"date": "2020-02-07", "Keyword": "isolation", "Keyword appearances": 38},
+      {"date": "2020-02-08", "Keyword": "isolation", "Keyword appearances": 19},
+      {"date": "2020-02-09", "Keyword": "isolation", "Keyword appearances": 9},
+      {"date": "2020-02-10", "Keyword": "isolation", "Keyword appearances": 23},
+      {"date": "2020-02-11", "Keyword": "isolation", "Keyword appearances": 34},
+      {"date": "2020-02-12", "Keyword": "isolation", "Keyword appearances": 23},
+      {"date": "2020-02-13", "Keyword": "isolation", "Keyword appearances": 34},
+      {"date": "2020-02-14", "Keyword": "isolation", "Keyword appearances": 47},
+      {"date": "2020-02-15", "Keyword": "isolation", "Keyword appearances": 35},
+      {"date": "2020-02-16", "Keyword": "isolation", "Keyword appearances": 15},
+      {"date": "2020-02-17", "Keyword": "isolation", "Keyword appearances": 25},
+      {"date": "2020-02-18", "Keyword": "isolation", "Keyword appearances": 26},
+      {"date": "2020-02-19", "Keyword": "isolation", "Keyword appearances": 32},
+      {"date": "2020-02-20", "Keyword": "isolation", "Keyword appearances": 51},
+      {"date": "2020-02-21", "Keyword": "isolation", "Keyword appearances": 26},
+      {"date": "2020-02-22", "Keyword": "isolation", "Keyword appearances": 5},
+      {"date": "2020-02-23", "Keyword": "isolation", "Keyword appearances": 19},
+      {"date": "2020-02-24", "Keyword": "isolation", "Keyword appearances": 27},
+      {"date": "2020-02-25", "Keyword": "isolation", "Keyword appearances": 10},
+      {"date": "2020-02-26", "Keyword": "isolation", "Keyword appearances": 11},
+      {"date": "2020-02-27", "Keyword": "isolation", "Keyword appearances": 8},
+      {"date": "2020-02-28", "Keyword": "isolation", "Keyword appearances": 16},
+      {"date": "2020-02-29", "Keyword": "isolation", "Keyword appearances": 15},
+      {"date": "2020-03-01", "Keyword": "isolation", "Keyword appearances": 20},
+      {"date": "2020-03-02", "Keyword": "isolation", "Keyword appearances": 37},
+      {"date": "2020-03-03", "Keyword": "isolation", "Keyword appearances": 20},
+      {"date": "2020-03-04", "Keyword": "isolation", "Keyword appearances": 42},
+      {"date": "2020-03-05", "Keyword": "isolation", "Keyword appearances": 24},
+      {"date": "2020-03-06", "Keyword": "isolation", "Keyword appearances": 27},
+      {"date": "2020-03-07", "Keyword": "isolation", "Keyword appearances": 29},
+      {"date": "2020-03-08", "Keyword": "isolation", "Keyword appearances": 18},
+      {"date": "2020-03-09", "Keyword": "isolation", "Keyword appearances": 15},
+      {"date": "2020-03-10", "Keyword": "isolation", "Keyword appearances": 25},
+      {"date": "2020-03-11", "Keyword": "isolation", "Keyword appearances": 17},
+      {"date": "2020-03-12", "Keyword": "isolation", "Keyword appearances": 23},
+      {"date": "2020-03-13", "Keyword": "isolation", "Keyword appearances": 53},
+      {"date": "2020-03-14", "Keyword": "isolation", "Keyword appearances": 50},
+      {"date": "2020-03-15", "Keyword": "isolation", "Keyword appearances": 42},
+      {"date": "2020-03-16", "Keyword": "isolation", "Keyword appearances": 54},
+      {"date": "2020-03-17", "Keyword": "isolation", "Keyword appearances": 59},
+      {"date": "2020-03-18", "Keyword": "isolation", "Keyword appearances": 73},
+      {"date": "2020-03-19", "Keyword": "isolation", "Keyword appearances": 64},
+      {"date": "2020-03-20", "Keyword": "isolation", "Keyword appearances": 70},
+      {"date": "2020-03-21", "Keyword": "isolation", "Keyword appearances": 55},
+      {"date": "2020-03-22", "Keyword": "isolation", "Keyword appearances": 80},
+      {"date": "2020-03-23", "Keyword": "isolation", "Keyword appearances": 52},
+      {"date": "2020-03-24", "Keyword": "isolation", "Keyword appearances": 53},
+      {"date": "2020-03-25", "Keyword": "isolation", "Keyword appearances": 71},
+      {"date": "2020-03-26", "Keyword": "isolation", "Keyword appearances": 68},
+      {"date": "2020-03-27", "Keyword": "isolation", "Keyword appearances": 62},
+      {"date": "2020-03-28", "Keyword": "isolation", "Keyword appearances": 52},
+      {"date": "2020-03-29", "Keyword": "isolation", "Keyword appearances": 47},
+      {"date": "2020-03-30", "Keyword": "isolation", "Keyword appearances": 57},
+      {"date": "2020-03-31", "Keyword": "isolation", "Keyword appearances": 55},
+      {"date": "2020-04-01", "Keyword": "isolation", "Keyword appearances": 55},
+      {"date": "2020-04-02", "Keyword": "isolation", "Keyword appearances": 63},
+      {"date": "2020-04-03", "Keyword": "isolation", "Keyword appearances": 62},
+      {"date": "2020-04-04", "Keyword": "isolation", "Keyword appearances": 59},
+      {"date": "2020-04-05", "Keyword": "isolation", "Keyword appearances": 44},
+      {"date": "2020-04-06", "Keyword": "isolation", "Keyword appearances": 52},
+      {"date": "2020-04-07", "Keyword": "isolation", "Keyword appearances": 31},
+      {"date": "2020-04-08", "Keyword": "isolation", "Keyword appearances": 57}
+    ]
+  }
+}
