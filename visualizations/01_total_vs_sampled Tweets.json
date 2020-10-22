@@ -3,812 +3,809 @@
   "background": "white",
   "padding": 5,
   "width": 800,
-  "height": 400,
-  "title": {
-    "text": "Total Coronavirus tweets and sampled tweets",
-    "frame": "group"
-  },
+  "height": 200,
+  "title": {"text": "Corona & Twitter: A love story", "frame": "group"},
   "style": "cell",
   "data": [
-    {"name": "selector065_store"},
+    {"name": "selector013_store"},
     {
-      "name": "data-fd2ffe389be9256433960a856bcb7b03",
+      "name": "data-a1cead71e4a40a64f17189a5901bfe17",
       "values": [
         {
           "date": "2020-04-07T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 7877347
         },
         {
           "date": "2020-04-06T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 8153967
         },
         {
           "date": "2020-04-05T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 7421878
         },
         {
           "date": "2020-04-04T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 7928226
         },
         {
           "date": "2020-04-03T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 9357114
         },
         {
           "date": "2020-04-02T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 9767919
         },
         {
           "date": "2020-04-01T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 10402982
         },
         {
           "date": "2020-03-31T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 10442433
         },
         {
           "date": "2020-03-30T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 10125715
         },
         {
           "date": "2020-03-29T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 9333427
         },
         {
           "date": "2020-03-28T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 10434672
         },
         {
           "date": "2020-03-27T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 12209012
         },
         {
           "date": "2020-03-26T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 12236720
         },
         {
           "date": "2020-03-25T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 13000270
         },
         {
           "date": "2020-03-24T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 14445842
         },
         {
           "date": "2020-03-23T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 15446247
         },
         {
           "date": "2020-03-22T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 14392562
         },
         {
           "date": "2020-03-21T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 12861352
         },
         {
           "date": "2020-03-20T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 15200260
         },
         {
           "date": "2020-03-19T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 16582132
         },
         {
           "date": "2020-03-18T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 16561525
         },
         {
           "date": "2020-03-17T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 17417143
         },
         {
           "date": "2020-03-16T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 17227183
         },
         {
           "date": "2020-03-15T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 16438761
         },
         {
           "date": "2020-03-14T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 16823149
         },
         {
           "date": "2020-03-13T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 19802672
         },
         {
           "date": "2020-03-12T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 18799723
         },
         {
           "date": "2020-03-11T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 9923318
         },
         {
           "date": "2020-03-10T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 8284673
         },
         {
           "date": "2020-03-09T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 6386123
         },
         {
           "date": "2020-03-08T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 4533477
         },
         {
           "date": "2020-03-07T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 4632240
         },
         {
           "date": "2020-03-06T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 4581033
         },
         {
           "date": "2020-03-05T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 4323688
         },
         {
           "date": "2020-03-04T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 4323671
         },
         {
           "date": "2020-03-03T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 4342140
         },
         {
           "date": "2020-03-02T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 4240722
         },
         {
           "date": "2020-03-01T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 3632690
         },
         {
           "date": "2020-02-29T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 4666122
         },
         {
           "date": "2020-02-28T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 5685322
         },
         {
           "date": "2020-02-27T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 4597413
         },
         {
           "date": "2020-02-26T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 3989534
         },
         {
           "date": "2020-02-25T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 2844370
         },
         {
           "date": "2020-02-24T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 1643545
         },
         {
           "date": "2020-02-23T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 1233512
         },
         {
           "date": "2020-02-22T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 997639
         },
         {
           "date": "2020-02-21T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 954322
         },
         {
           "date": "2020-02-20T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 622350
         },
         {
           "date": "2020-02-19T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 626238
         },
         {
           "date": "2020-02-18T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 628044
         },
         {
           "date": "2020-02-17T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 626733
         },
         {
           "date": "2020-02-16T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 625128
         },
         {
           "date": "2020-02-15T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 624556
         },
         {
           "date": "2020-02-14T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 622723
         },
         {
           "date": "2020-02-13T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 956878
         },
         {
           "date": "2020-02-12T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 911099
         },
         {
           "date": "2020-02-11T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 908628
         },
         {
           "date": "2020-02-10T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 807655
         },
         {
           "date": "2020-02-09T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 796740
         },
         {
           "date": "2020-02-08T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 803454
         },
         {
           "date": "2020-02-07T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 987564
         },
         {
           "date": "2020-02-06T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 834674
         },
         {
           "date": "2020-02-05T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 803588
         },
         {
           "date": "2020-02-04T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 997863
         },
         {
           "date": "2020-02-03T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 1000753
         },
         {
           "date": "2020-02-02T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 1298477
         },
         {
           "date": "2020-02-01T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 1287964
         },
         {
           "date": "2020-01-31T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 1997636
         },
         {
           "date": "2020-01-30T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 2010977
         },
         {
           "date": "2020-01-29T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 1623498
         },
         {
           "date": "2020-01-28T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 1497654
         },
         {
           "date": "2020-01-27T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 1467599
         },
         {
           "date": "2020-01-26T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 1678954
         },
         {
           "date": "2020-01-25T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 1536785
         },
         {
           "date": "2020-01-24T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 1153246
         },
         {
           "date": "2020-01-23T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 905674
         },
         {
           "date": "2020-01-22T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 508624
         },
         {
           "date": "2020-01-21T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 259865
         },
         {
           "date": "2020-01-20T00:00:00",
-          "variable": "Tweets total",
+          "variable": "Total tweets",
           "value": 100125
         },
         {
           "date": "2020-04-07T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13557
         },
         {
           "date": "2020-04-06T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13573
         },
         {
           "date": "2020-04-05T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13642
         },
         {
           "date": "2020-04-04T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13575
         },
         {
           "date": "2020-04-03T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13549
         },
         {
           "date": "2020-04-02T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 19851
         },
         {
           "date": "2020-04-01T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13660
         },
         {
           "date": "2020-03-31T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13511
         },
         {
           "date": "2020-03-30T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13598
         },
         {
           "date": "2020-03-29T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13590
         },
         {
           "date": "2020-03-28T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13574
         },
         {
           "date": "2020-03-27T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13541
         },
         {
           "date": "2020-03-26T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13548
         },
         {
           "date": "2020-03-25T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13575
         },
         {
           "date": "2020-03-24T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13551
         },
         {
           "date": "2020-03-23T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13545
         },
         {
           "date": "2020-03-22T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13499
         },
         {
           "date": "2020-03-21T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13605
         },
         {
           "date": "2020-03-20T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13553
         },
         {
           "date": "2020-03-19T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13551
         },
         {
           "date": "2020-03-18T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 16628
         },
         {
           "date": "2020-03-17T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13490
         },
         {
           "date": "2020-03-16T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13586
         },
         {
           "date": "2020-03-15T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13718
         },
         {
           "date": "2020-03-14T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13588
         },
         {
           "date": "2020-03-13T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 26664
         },
         {
           "date": "2020-03-12T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13682
         },
         {
           "date": "2020-03-11T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13634
         },
         {
           "date": "2020-03-10T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13585
         },
         {
           "date": "2020-03-09T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13565
         },
         {
           "date": "2020-03-08T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 4454
         },
         {
           "date": "2020-03-07T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13674
         },
         {
           "date": "2020-03-06T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13673
         },
         {
           "date": "2020-03-05T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13654
         },
         {
           "date": "2020-03-04T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13761
         },
         {
           "date": "2020-03-03T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13728
         },
         {
           "date": "2020-03-02T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13619
         },
         {
           "date": "2020-03-01T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13628
         },
         {
           "date": "2020-02-29T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13695
         },
         {
           "date": "2020-02-28T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13697
         },
         {
           "date": "2020-02-27T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13795
         },
         {
           "date": "2020-02-26T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13481
         },
         {
           "date": "2020-02-25T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13735
         },
         {
           "date": "2020-02-24T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 27006
         },
         {
           "date": "2020-02-23T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13677
         },
         {
           "date": "2020-02-22T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 2804
         },
         {
           "date": "2020-02-21T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13639
         },
         {
           "date": "2020-02-20T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13584
         },
         {
           "date": "2020-02-19T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13428
         },
         {
           "date": "2020-02-18T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13651
         },
         {
           "date": "2020-02-17T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13707
         },
         {
           "date": "2020-02-16T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13635
         },
         {
           "date": "2020-02-15T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13540
         },
         {
           "date": "2020-02-14T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13608
         },
         {
           "date": "2020-02-13T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13712
         },
         {
           "date": "2020-02-12T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13706
         },
         {
           "date": "2020-02-11T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13695
         },
         {
           "date": "2020-02-10T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13583
         },
         {
           "date": "2020-02-09T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13621
         },
         {
           "date": "2020-02-08T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13712
         },
         {
           "date": "2020-02-07T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13633
         },
         {
           "date": "2020-02-06T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13643
         },
         {
           "date": "2020-02-05T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13604
         },
         {
           "date": "2020-02-04T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13624
         },
         {
           "date": "2020-02-03T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13618
         },
         {
           "date": "2020-02-02T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13625
         },
         {
           "date": "2020-02-01T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13686
         },
         {
           "date": "2020-01-31T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13550
         },
         {
           "date": "2020-01-30T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13656
         },
         {
           "date": "2020-01-29T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13708
         },
         {
           "date": "2020-01-28T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13695
         },
         {
           "date": "2020-01-27T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13660
         },
         {
           "date": "2020-01-26T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13731
         },
         {
           "date": "2020-01-25T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 11624
         },
         {
           "date": "2020-01-24T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13569
         },
         {
           "date": "2020-01-23T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13542
         },
         {
           "date": "2020-01-22T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13532
         },
         {
           "date": "2020-01-21T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 13689
         },
         {
           "date": "2020-01-20T00:00:00",
-          "variable": "Tweets sampled",
+          "variable": "Sampled tweets",
           "value": 10533
         }
       ]
     },
     {
       "name": "data_0",
-      "source": "data-fd2ffe389be9256433960a856bcb7b03",
+      "source": "data-a1cead71e4a40a64f17189a5901bfe17",
       "transform": [
         {"type": "formula", "expr": "toDate(datum[\"date\"])", "as": "date"}
       ]
@@ -839,7 +836,7 @@
       "transform": [
         {
           "type": "filter",
-          "expr": "(vlSelectionTest(\"selector065_store\", datum))"
+          "expr": "(vlSelectionTest(\"selector013_store\", datum))"
         },
         {
           "type": "filter",
@@ -857,11 +854,11 @@
       ]
     },
     {
-      "name": "selector065",
-      "update": "vlSelectionResolve(\"selector065_store\", \"union\")"
+      "name": "selector013",
+      "update": "vlSelectionResolve(\"selector013_store\", \"union\")"
     },
     {
-      "name": "selector065_tuple",
+      "name": "selector013_tuple",
       "on": [
         {
           "events": [
@@ -871,22 +868,22 @@
               "markname": "layer_1_voronoi"
             }
           ],
-          "update": "datum && item().mark.marktype !== 'group' ? {unit: \"layer_1\", fields: selector065_tuple_fields, values: [(item().isVoronoi ? datum.datum : datum)[\"date\"]]} : null",
+          "update": "datum && item().mark.marktype !== 'group' ? {unit: \"layer_1\", fields: selector013_tuple_fields, values: [(item().isVoronoi ? datum.datum : datum)[\"date\"]]} : null",
           "force": true
         },
         {"events": [{"source": "scope", "type": "dblclick"}], "update": "null"}
       ]
     },
     {
-      "name": "selector065_tuple_fields",
+      "name": "selector013_tuple_fields",
       "value": [{"type": "E", "field": "date"}]
     },
     {
-      "name": "selector065_modify",
+      "name": "selector013_modify",
       "on": [
         {
-          "events": {"signal": "selector065_tuple"},
-          "update": "modify(\"selector065_store\", selector065_tuple, true)"
+          "events": {"signal": "selector013_tuple"},
+          "update": "modify(\"selector013_store\", selector013_tuple, true)"
         }
       ]
     }
@@ -980,7 +977,7 @@
         "update": {
           "opacity": [
             {
-              "test": "(vlSelectionTest(\"selector065_store\", datum))",
+              "test": "(vlSelectionTest(\"selector013_store\", datum))",
               "value": 1
             },
             {"value": 0}
@@ -1023,7 +1020,7 @@
           "y": {"scale": "y", "field": "value"},
           "text": [
             {
-              "test": "(vlSelectionTest(\"selector065_store\", datum))",
+              "test": "(vlSelectionTest(\"selector013_store\", datum))",
               "signal": "timeFormat(datum[\"date\"], '%b %d, %Y')"
             },
             {"value": " "}
@@ -1048,7 +1045,7 @@
           "y": {"scale": "y", "field": "value"},
           "text": [
             {
-              "test": "(vlSelectionTest(\"selector065_store\", datum))",
+              "test": "(vlSelectionTest(\"selector013_store\", datum))",
               "signal": "format(datum[\"value\"], \"\")"
             },
             {"value": " "}
@@ -1087,7 +1084,7 @@
     {
       "name": "color",
       "type": "ordinal",
-      "domain": ["Tweets total", "Tweets sampled"],
+      "domain": ["Total tweets", "Sampled tweets"],
       "range": ["#1da1f2", "#0062a2"]
     }
   ],
@@ -1131,7 +1128,7 @@
       "scale": "y",
       "orient": "left",
       "grid": false,
-      "title": "Number of Tweets, logscale",
+      "title": "Daily Coronavirus tweets, logscale",
       "labelOverlap": "greedy",
       "zindex": 0
     }

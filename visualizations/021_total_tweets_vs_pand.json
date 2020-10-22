@@ -5,13 +5,13 @@
   "width": 600,
   "height": 300,
   "title": {
-    "text": "Compare number of tweets to pandemic data",
+    "text": "Twitter & the pandemic: Ahead of the reality",
     "frame": "group"
   },
   "style": "cell",
   "data": [
     {
-      "name": "selector094_store",
+      "name": "selector021_store",
       "values": [
         {
           "unit": "layer_0",
@@ -21,15 +21,15 @@
       ]
     },
     {
-      "name": "data-27113260fdabff0114d8131af728b331",
+      "name": "data-6edfdff525b156008a20683eb3857092",
       "values": [
         {
           "date": "2020-04-07T00:00:00",
           "Tweets": 7877346,
           "total_cases": 2691782,
           "new_cases": 146530,
-          "new_deaths": 10680,
-          "new_tests": 550762,
+          "new_deaths": 10690,
+          "new_tests": 550133,
           "cnn_articles": 77,
           "fox_articles": 230
         },
@@ -38,8 +38,8 @@
           "Tweets": 8153966,
           "total_cases": 2545252,
           "new_cases": 132520,
-          "new_deaths": 9512,
-          "new_tests": 388523,
+          "new_deaths": 9542,
+          "new_tests": 388436,
           "cnn_articles": 74,
           "fox_articles": 169
         },
@@ -48,8 +48,8 @@
           "Tweets": 7421877,
           "total_cases": 2412577,
           "new_cases": 170540,
-          "new_deaths": 12616,
-          "new_tests": 424623,
+          "new_deaths": 12596,
+          "new_tests": 420590,
           "cnn_articles": 48,
           "fox_articles": 96
         },
@@ -58,8 +58,8 @@
           "Tweets": 7928225,
           "total_cases": 2242192,
           "new_cases": 163998,
-          "new_deaths": 13552,
-          "new_tests": 408542,
+          "new_deaths": 13572,
+          "new_tests": 408980,
           "cnn_articles": 36,
           "fox_articles": 120
         },
@@ -68,8 +68,8 @@
           "Tweets": 9357113,
           "total_cases": 2078194,
           "new_cases": 155292,
-          "new_deaths": 10018,
-          "new_tests": 466182,
+          "new_deaths": 10052,
+          "new_tests": 465775,
           "cnn_articles": 80,
           "fox_articles": 235
         },
@@ -78,8 +78,8 @@
           "Tweets": 9767918,
           "total_cases": 1922902,
           "new_cases": 155294,
-          "new_deaths": 10020,
-          "new_tests": 414784,
+          "new_deaths": 10030,
+          "new_tests": 415012,
           "cnn_articles": 85,
           "fox_articles": 260
         },
@@ -88,8 +88,8 @@
           "Tweets": 10402981,
           "total_cases": 1767603,
           "new_cases": 149678,
-          "new_deaths": 9348,
-          "new_tests": 430541,
+          "new_deaths": 9354,
+          "new_tests": 429639,
           "cnn_articles": 71,
           "fox_articles": 260
         },
@@ -98,8 +98,8 @@
           "Tweets": 10442432,
           "total_cases": 1617838,
           "new_cases": 129426,
-          "new_deaths": 7972,
-          "new_tests": 274983,
+          "new_deaths": 7986,
+          "new_tests": 286277,
           "cnn_articles": 75,
           "fox_articles": 144
         },
@@ -108,8 +108,8 @@
           "Tweets": 10125714,
           "total_cases": 1488504,
           "new_cases": 114728,
-          "new_deaths": 6456,
-          "new_tests": 245286,
+          "new_deaths": 6462,
+          "new_tests": 244749,
           "cnn_articles": 60,
           "fox_articles": 204
         },
@@ -118,8 +118,8 @@
           "Tweets": 9333426,
           "total_cases": 1373776,
           "new_cases": 125708,
-          "new_deaths": 7174,
-          "new_tests": 293899,
+          "new_deaths": 7180,
+          "new_tests": 293252,
           "cnn_articles": 33,
           "fox_articles": 108
         },
@@ -128,8 +128,8 @@
           "Tweets": 10434671,
           "total_cases": 1248068,
           "new_cases": 130370,
-          "new_deaths": 6982,
-          "new_tests": 255810,
+          "new_deaths": 6984,
+          "new_tests": 255377,
           "cnn_articles": 29,
           "fox_articles": 84
         },
@@ -138,8 +138,8 @@
           "Tweets": 12209011,
           "total_cases": 1117698,
           "new_cases": 122218,
-          "new_deaths": 5610,
-          "new_tests": 296059,
+          "new_deaths": 5628,
+          "new_tests": 295684,
           "cnn_articles": 61,
           "fox_articles": 210
         },
@@ -148,8 +148,8 @@
           "Tweets": 12236719,
           "total_cases": 995480,
           "new_cases": 107670,
-          "new_deaths": 5288,
-          "new_tests": 254519,
+          "new_deaths": 5290,
+          "new_tests": 254023,
           "cnn_articles": 81,
           "fox_articles": 256
         },
@@ -158,8 +158,8 @@
           "Tweets": 13000269,
           "total_cases": 887803,
           "new_cases": 85072,
-          "new_deaths": 4610,
-          "new_tests": 229455,
+          "new_deaths": 4630,
+          "new_tests": 228952,
           "cnn_articles": 61,
           "fox_articles": 260
         },
@@ -169,7 +169,7 @@
           "total_cases": 802736,
           "new_cases": 89140,
           "new_deaths": 3708,
-          "new_tests": 209309,
+          "new_tests": 208779,
           "cnn_articles": 69,
           "fox_articles": 253
         },
@@ -178,8 +178,8 @@
           "Tweets": 15446246,
           "total_cases": 713589,
           "new_cases": 68540,
-          "new_deaths": 3376,
-          "new_tests": 191374,
+          "new_deaths": 3382,
+          "new_tests": 191117,
           "cnn_articles": 54,
           "fox_articles": 231
         },
@@ -188,8 +188,8 @@
           "Tweets": 14392561,
           "total_cases": 645049,
           "new_cases": 68452,
-          "new_deaths": 3434,
-          "new_tests": 123496,
+          "new_deaths": 3432,
+          "new_tests": 123261,
           "cnn_articles": 33,
           "fox_articles": 101
         },
@@ -198,8 +198,8 @@
           "Tweets": 12861351,
           "total_cases": 576597,
           "new_cases": 63976,
-          "new_deaths": 2770,
-          "new_tests": 160041,
+          "new_deaths": 2774,
+          "new_tests": 159738,
           "cnn_articles": 30,
           "fox_articles": 75
         },
@@ -208,8 +208,8 @@
           "Tweets": 15200259,
           "total_cases": 512626,
           "new_cases": 62392,
-          "new_deaths": 2148,
-          "new_tests": 172207,
+          "new_deaths": 2150,
+          "new_tests": 171982,
           "cnn_articles": 54,
           "fox_articles": 186
         },
@@ -218,8 +218,8 @@
           "Tweets": 16582131,
           "total_cases": 450230,
           "new_cases": 40588,
-          "new_deaths": 1916,
-          "new_tests": 137298,
+          "new_deaths": 1926,
+          "new_tests": 137151,
           "cnn_articles": 67,
           "fox_articles": 246
         },
@@ -228,8 +228,8 @@
           "Tweets": 16561524,
           "total_cases": 409642,
           "new_cases": 34184,
-          "new_deaths": 1624,
-          "new_tests": 108165,
+          "new_deaths": 1622,
+          "new_tests": 107959,
           "cnn_articles": 57,
           "fox_articles": 241
         },
@@ -239,7 +239,7 @@
           "total_cases": 375446,
           "new_cases": 28482,
           "new_deaths": 1212,
-          "new_tests": 100650,
+          "new_tests": 100519,
           "cnn_articles": 57,
           "fox_articles": 247
         },
@@ -248,8 +248,8 @@
           "Tweets": 17227182,
           "total_cases": 346948,
           "new_cases": 24958,
-          "new_deaths": 1500,
-          "new_tests": 65453,
+          "new_deaths": 1502,
+          "new_tests": 65353,
           "cnn_articles": 57,
           "fox_articles": 204
         },
@@ -259,7 +259,7 @@
           "total_cases": 321919,
           "new_cases": 24400,
           "new_deaths": 734,
-          "new_tests": 48937,
+          "new_tests": 48855,
           "cnn_articles": 17,
           "fox_articles": 91
         },
@@ -268,8 +268,8 @@
           "Tweets": 16823148,
           "total_cases": 297395,
           "new_cases": 20910,
-          "new_deaths": 884,
-          "new_tests": 56751,
+          "new_deaths": 886,
+          "new_tests": 56705,
           "cnn_articles": 25,
           "fox_articles": 49
         },
@@ -278,8 +278,8 @@
           "Tweets": 19802671,
           "total_cases": 276218,
           "new_cases": 18948,
-          "new_deaths": 702,
-          "new_tests": 36983,
+          "new_deaths": 700,
+          "new_tests": 36897,
           "cnn_articles": 44,
           "fox_articles": 159
         },
@@ -288,8 +288,8 @@
           "Tweets": 18799722,
           "total_cases": 257589,
           "new_cases": 15844,
-          "new_deaths": 662,
-          "new_tests": 37920,
+          "new_deaths": 664,
+          "new_tests": 37878,
           "cnn_articles": 43,
           "fox_articles": 185
         },
@@ -298,8 +298,8 @@
           "Tweets": 9923317,
           "total_cases": 241807,
           "new_cases": 10236,
-          "new_deaths": 544,
-          "new_tests": 37572,
+          "new_deaths": 546,
+          "new_tests": 37543,
           "cnn_articles": 24,
           "fox_articles": 107
         },
@@ -308,8 +308,8 @@
           "Tweets": 8284672,
           "total_cases": 231365,
           "new_cases": 9636,
-          "new_deaths": 418,
-          "new_tests": 33145,
+          "new_deaths": 416,
+          "new_tests": 33109,
           "cnn_articles": 21,
           "fox_articles": 104
         },
@@ -319,7 +319,7 @@
           "total_cases": 221802,
           "new_cases": 8358,
           "new_deaths": 456,
-          "new_tests": 26947,
+          "new_tests": 26931,
           "cnn_articles": 24,
           "fox_articles": 89
         },
@@ -329,7 +329,7 @@
           "total_cases": 213462,
           "new_cases": 7956,
           "new_deaths": 194,
-          "new_tests": 20910,
+          "new_tests": 20885,
           "cnn_articles": 7,
           "fox_articles": 39
         },
@@ -339,7 +339,7 @@
           "total_cases": 205522,
           "new_cases": 8240,
           "new_deaths": 208,
-          "new_tests": 29799,
+          "new_tests": 29791,
           "cnn_articles": 9,
           "fox_articles": 37
         },
@@ -349,7 +349,7 @@
           "total_cases": 197390,
           "new_cases": 6120,
           "new_deaths": 204,
-          "new_tests": 41186,
+          "new_tests": 41174,
           "cnn_articles": 16,
           "fox_articles": 60
         },
@@ -359,7 +359,7 @@
           "total_cases": 191200,
           "new_cases": 4714,
           "new_deaths": 160,
-          "new_tests": 20561,
+          "new_tests": 20554,
           "cnn_articles": 12,
           "fox_articles": 50
         },
@@ -369,7 +369,7 @@
           "total_cases": 186473,
           "new_cases": 4630,
           "new_deaths": 168,
-          "new_tests": 28886,
+          "new_tests": 28880,
           "cnn_articles": 14,
           "fox_articles": 65
         },
@@ -379,7 +379,7 @@
           "total_cases": 181806,
           "new_cases": 3716,
           "new_deaths": 144,
-          "new_tests": 23288,
+          "new_tests": 23283,
           "cnn_articles": 7,
           "fox_articles": 49
         },
@@ -387,19 +387,19 @@
           "date": "2020-03-02T00:00:00",
           "Tweets": 4240721,
           "total_cases": 178318,
-          "new_cases": 4136,
+          "new_cases": 4172,
           "new_deaths": 134,
-          "new_tests": 16716,
+          "new_tests": 16711,
           "cnn_articles": 9,
           "fox_articles": 62
         },
         {
           "date": "2020-03-01T00:00:00",
           "Tweets": 3632689,
-          "total_cases": 174182,
-          "new_cases": 3686,
+          "total_cases": 174146,
+          "new_cases": 3650,
           "new_deaths": 116,
-          "new_tests": 13724,
+          "new_tests": 13699,
           "cnn_articles": 9,
           "fox_articles": 24
         },
@@ -419,7 +419,7 @@
           "total_cases": 166776,
           "new_cases": 2542,
           "new_deaths": 114,
-          "new_tests": 24995,
+          "new_tests": 24986,
           "cnn_articles": 6,
           "fox_articles": 43
         },
@@ -429,7 +429,7 @@
           "total_cases": 164234,
           "new_cases": 2228,
           "new_deaths": 76,
-          "new_tests": 16869,
+          "new_tests": 16864,
           "cnn_articles": 10,
           "fox_articles": 69
         },
@@ -449,7 +449,7 @@
           "total_cases": 160272,
           "new_cases": 1590,
           "new_deaths": 158,
-          "new_tests": 9879,
+          "new_tests": 9878,
           "cnn_articles": 8,
           "fox_articles": 22
         },
@@ -499,7 +499,7 @@
           "total_cases": 151454,
           "new_cases": 1064,
           "new_deaths": 232,
-          "new_tests": 2990,
+          "new_tests": 2988,
           "cnn_articles": 2,
           "fox_articles": 9
         },
@@ -589,7 +589,7 @@
           "total_cases": 86218,
           "new_cases": 5126,
           "new_deaths": 216,
-          "new_tests": 1407,
+          "new_tests": 1405,
           "cnn_articles": 4,
           "fox_articles": 18
         },
@@ -1007,7 +1007,7 @@
     },
     {
       "name": "data_0",
-      "source": "data-27113260fdabff0114d8131af728b331",
+      "source": "data-6edfdff525b156008a20683eb3857092",
       "transform": [
         {"type": "formula", "expr": "toDate(datum[\"date\"])", "as": "date"}
       ]
@@ -1023,7 +1023,7 @@
         },
         {
           "type": "filter",
-          "expr": "!(length(data(\"selector094_store\"))) || (vlSelectionTest(\"selector094_store\", datum))"
+          "expr": "!(length(data(\"selector021_store\"))) || (vlSelectionTest(\"selector021_store\", datum))"
         }
       ]
     }
@@ -1037,7 +1037,7 @@
       ]
     },
     {
-      "name": "selector094_column",
+      "name": "selector021_column",
       "init": "\"new_cases\"",
       "bind": {
         "input": "select",
@@ -1046,23 +1046,23 @@
       }
     },
     {
-      "name": "selector094",
-      "update": "vlSelectionResolve(\"selector094_store\", \"union\")"
+      "name": "selector021",
+      "update": "vlSelectionResolve(\"selector021_store\", \"union\")"
     },
     {
-      "name": "selector094_tuple",
-      "update": "selector094_column !== null ? {fields: selector094_tuple_fields, values: [selector094_column]} : null"
+      "name": "selector021_tuple",
+      "update": "selector021_column !== null ? {fields: selector021_tuple_fields, values: [selector021_column]} : null"
     },
     {
-      "name": "selector094_tuple_fields",
+      "name": "selector021_tuple_fields",
       "value": [{"type": "E", "field": "column"}]
     },
     {
-      "name": "selector094_modify",
+      "name": "selector021_modify",
       "on": [
         {
-          "events": {"signal": "selector094_tuple"},
-          "update": "modify(\"selector094_store\", selector094_tuple, true)"
+          "events": {"signal": "selector021_tuple"},
+          "update": "modify(\"selector021_store\", selector021_tuple, true)"
         }
       ]
     }
@@ -1163,7 +1163,7 @@
       "scale": "layer_0_y",
       "orient": "left",
       "grid": false,
-      "title": "Pandemic Data",
+      "title": "Pandemic data",
       "titleColor": "#029006",
       "labelOverlap": true,
       "tickCount": {"signal": "ceil(height/40)"},
@@ -1173,7 +1173,7 @@
       "scale": "layer_1_y",
       "orient": "right",
       "grid": false,
-      "title": "Number of tweets",
+      "title": "Total number of Coronavirus tweets",
       "titleColor": "#1da1f2",
       "labelOverlap": true,
       "tickCount": {"signal": "ceil(height/40)"},
