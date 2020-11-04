@@ -4,7 +4,7 @@ Try out the online prototype. From the presentation video, get more information 
 
 Use the Cognitive Walkthrough method to walk yourself through the visualization from the perspective of a person from the target group using this visualization. Write a short story about how a person from the target group uses the visualization and what question he/she can answer with it. Does the person run into problems (e.g., reading the visualizations, using the interface etc.)?
 
-## 2. As formal validation, address the threats mentioned in the Munzner nested model for the first three categories (domain, data/task, and visual encoding / interaction).
+## 2. Formal validation
 
 ### Domain Problem and Data Characterization
 
@@ -25,7 +25,11 @@ Generic operations to answer all three questions are high-level tasks. They aim 
 
 ### Visual Encoding and Interaction Design
 
-### Algorithm Design
+Group 1 used different tools to visualize data: maps, line charts, bar charts, scatter plots. 
+
+They interact with users through tooltips for most of them, but there is also interaction by clicking (Question 1, section "Answer") and zoom in/out for some ("Company Factors V.S. Stock change rate", "COVID-19 factors V.S. stock market change rate"). Users always have to read the description in order to receive information on how they can interact with visualizations. 
+
+They mostly used color to encode country name. In the section "Global Level" they used color to encode drop/change rate. For visualisations "Overview of Stock Markets Development Worldwide" and "Overview of Corona Crash Worldwide" they also used size to encode the level of drop/change rate. For the "Overview of Corona Crash Worldwide" they also add opacity to encode level of drop rate.
 
 ## 3. What possible improvements do you suggest as a result of the validation?
 
@@ -35,7 +39,7 @@ If I use this application to make a financial decision, I would like to access d
 
 It is not easy to find variables descriptions (for example, "change_rate"). There should probably be bold text and separate paragraphs.
 
-"Overview of Stock Markets Development Worldwide" and "Overview of Corona Crash Worldwide" would be more useful if the user can compare them: either have in one map or two maps side by side. The current version means that the user has to scroll up and down.
+"Overview of Stock Markets Development Worldwide" and "Overview of Corona Crash Worldwide" would be more useful if the user can compare them: either have in one map or two maps side by side. The current version means that the user has to scroll up and down. Probably it would be better to use only size of point to show the difference in drop/chahge rates, without changing the opacity.
 
 Probably the number of visualizations could be reduced. For example, as a professional investor, I will not benefit from chats from section "Recession shapes".
 
