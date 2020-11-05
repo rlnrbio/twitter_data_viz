@@ -25,7 +25,7 @@ the size of several terabytes of data made the use of it unachievable for this p
 provide a more in depth perspective. We also tried to acquire a dataset about the general mood in Germany curated by Zeit online [[8]](#8), but access was not provided.
 
 Instead, the data used in our project comes from a student project at UC Davis, who have collected samples of Coronavirus related tweets from each day in the beginning of
-the pandemic (20th of January to 8th of April) [[1]](#1). They also collected the daily trending topics [[2]](#2) and news stories about the coronavirus on Fox News and CNN [[3]](#3) [[4]](#4), 
+the pandemic (20th of January to 8th of April) [[1]](#1). They also collected the daily trending topics [[2]](#2) and news stories about the coronavirus on CNN [[3]](#3) and Fox News [[4]](#4), 
 which all have been used in these visualizations. Additionally they provided the total count of daily Coronavirus related tweets [[5]](#5).
 
 As comparison, pandemic data from OurWorldInData was used [[6]](#6).
@@ -93,7 +93,7 @@ News articles, CNN
 https://github.com/xxz-jessica/COVID-19_UCD_Challenge/blob/master/News_Fox_CNN/CNN_full.xlsx
 
 <a id="4">[4]</a> 
-News articles, FoxNews
+News articles, Fox News
 https://github.com/xxz-jessica/COVID-19_UCD_Challenge/blob/master/News_Fox_CNN/foxnews_article_form.xlsx
 
 <a id="5">[5]</a>
