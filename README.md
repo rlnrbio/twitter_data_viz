@@ -28,7 +28,7 @@ Instead, the data used in our project comes from a student project at UC Davis, 
 the pandemic (20th of January to 8th of April) [[1]](#1). They also collected the daily trending topics [[2]](#2) and news stories about the coronavirus on Fox News and CNN [[3]](#3) [[4]](#4), 
 which all have been used in these visualizations. Additionally they provided the total count of daily Coronavirus related tweets [[5]](#5).
 
-As comparison, pandemic data from OurWorldInData was used [[6]](#6)
+As comparison, pandemic data from OurWorldInData was used [[6]](#6).
 
 
 ## From task to visual encoding
@@ -76,6 +76,8 @@ but remove the restrictions posed by the preselection of keywords through the au
 but no online anakysis takes place. That would change requiring increased Server capacity. In the case of huge popularity of the site in the future this might be a bottleneck. 
 
 To explore the usability of the visualization prototype, watch this screencast: https://youtu.be/NLvXzepmJMs
+
+The up and running prototype can be found here: https://nadja-mansurov.github.io/
 
 ## Data sources & References
 <a id="1">[1]</a> 
