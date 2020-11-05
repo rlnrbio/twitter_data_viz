@@ -68,8 +68,7 @@ Some improvements for the future were already mentioned, the most important woul
 the user explore twitter using words that the authors did not think of, therefore making the visualizations personalizable. This will add another layer of algorithmic complexity. Right now, all the preanalyzed data is stored in the site,
 but no life analysis is going on. That would change requiring increased Server capacity. In the case of huge popularity of the site in the future this might be a bottleneck. 
 
-To explore the usability of the visualization prototype, watch this screencast:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NLvXzepmJMs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+To explore the usability of the visualization prototype, watch this screencast: https://youtu.be/NLvXzepmJMs
 
 ## Data sources:
 - Covid pandemic data: https://covid.ourworldindata.org/data/owid-covid-data.csv
