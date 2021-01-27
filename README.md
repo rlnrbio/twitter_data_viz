@@ -77,7 +77,7 @@ but no online anakysis takes place. That would change requiring increased Server
 
 To explore the usability of the visualization prototype, watch this screencast: https://youtu.be/NLvXzepmJMs
 
-The up and running prototype can be found here: https://nadja-mansurov.github.io/
+The up and running prototype can be found here: https://nadja-mansurov.github.io/cov19_twitter/
 
 ## Data sources & References
 <a id="1">[1]</a> 
